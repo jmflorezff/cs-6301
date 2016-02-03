@@ -21,7 +21,7 @@ class LexiconBuilder:
         self.stop_words = stop_words
         self.min_length = min_length
         
-    def process_file(file_path):
+    def process_file(self, file_path):
         if file_path in self.index:
             # The file has already been processed
             return
@@ -56,7 +56,7 @@ def main(directories, outfile):
         for (dir_path, _, file_names) in os.walk(directory):
             for file_name in file_names:
                 file_path = os.path.abspath(os.path.join(dir_path, file_name))
-                process_file(file_path)
+                LexiconBuilder.process_file(self, file_path)
 
 
 if __name__ == '__main__':
