@@ -11,6 +11,7 @@ import nltk
 
 import argparse
 import sys
+import os
 
 
 class LexiconBuilder:
