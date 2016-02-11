@@ -1,0 +1,6 @@
+https://issues.apache.org/jira/browse/LUCENE-6859
+https://issues.apache.org/jira/browse/LUCENE-6858
+https://issues.apache.org/jira/browse/LUCENE-6888
+https://issues.apache.org/jira/browse/LUCENE-6813
+https://issues.apache.org/jira/browse/LUCENE-6906 ???
+https://issues.apache.org/jira/browse/LUCENE-6955 ???

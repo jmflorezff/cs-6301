@@ -1,0 +1,38 @@
+1.7R5   https://github.com/mozilla/rhino/archive/Rhino1_7R5_RELEASE.zip
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=782363
+https://bugzilla.mozilla.org/show_bug.cgi?id=780458
+https://bugzilla.mozilla.org/show_bug.cgi?id=789277
+https://bugzilla.mozilla.org/show_bug.cgi?id=798642
+https://bugzilla.mozilla.org/show_bug.cgi?id=800616
+
+NOT USING
+-------------------------------------------------------
+
+https://github.com/mozilla/rhino/issues/237
+https://github.com/mozilla/rhino/issues/233
+https://github.com/mozilla/rhino/issues/220 ???
+https://github.com/mozilla/rhino/issues/184 gradle???
+https://github.com/mozilla/rhino/issues/98
+https://github.com/mozilla/rhino/issues/51
+https://github.com/mozilla/rhino/issues/54
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=351066
+
+1.7.7
+https://github.com/mozilla/rhino/issues/176 ----
+
+1.6R1
+https://bugzilla.mozilla.org/show_bug.cgi?id=274467
+https://bugzilla.mozilla.org/show_bug.cgi?id=277935
+https://bugzilla.mozilla.org/show_bug.cgi?id=290715 NO
+https://bugzilla.mozilla.org/show_bug.cgi?id=309957
+https://bugzilla.mozilla.org/show_bug.cgi?id=302501
+
+1.7R1
+https://bugzilla.mozilla.org/show_bug.cgi?id=444926
+https://bugzilla.mozilla.org/show_bug.cgi?id=708801
+https://bugzilla.mozilla.org/show_bug.cgi?id=714204
+https://bugzilla.mozilla.org/show_bug.cgi?id=419940
+https://bugzilla.mozilla.org/show_bug.cgi?id=420012
+https://bugzilla.mozilla.org/show_bug.cgi?id=467276
