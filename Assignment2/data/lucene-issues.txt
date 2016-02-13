@@ -4,14 +4,117 @@ Source: https://github.com/apache/lucene-solr/archive/releases/lucene-solr/5.2.1
     (Things are inside lucene-solr-releases-lucene-solr-5.2.1/lucene/core/src)
     
  - https://issues.apache.org/jira/browse/LUCENE-6500
+
+test.org.apache.lucene.index
+TestParallelCompositeReader.java
+
+	testReaderClosedListener(boolean closeSubReaders, int wrapMultiReaderType) 
+
+	testReaderClosedListener2() 
+
+	testReaderClosedListener3()
+
+	testReaderClosedListener4()
+
+	testReaderClosedListener5()
+
+	testCloseInnerReader() 
+
+java.org.apache.lucene.index
+File ParallelCompositeReader.java
+
+	ParallelCompositeReader extends BaseCompositeReader<LeafReader>
+
+	public ParallelCompositeReader(boolean closeSubReaders, CompositeReader[] readers, CompositeReader[] storedFieldReaders)
+
+	private static LeafReader[] prepareLeafReaders(CompositeReader[] readers, CompositeReader[] storedFieldsReaders)
+
+	private static void validate(CompositeReader[] readers, int maxDoc, int[] leafMaxDoc)
+
+
  - https://issues.apache.org/jira/browse/LUCENE-6520
+
+spatial4j/geo3d/GeoPath.java
+
+ 	public SegmentEndpoint(final GeoPoint point,
+      final SidedPlane prevCutoffPlane, final SidedPlane nextCutoffPlane,
+      final GeoPoint prevUpperGeoPoint, final GeoPoint prevLowerGeoPoint,
+      final GeoPoint nextUpperGeoPoint, final GeoPoint nextLowerGeoPoint) {
+      final GeoPoint notCand2Point, final GeoPoint notCand1Point,
+      final GeoPoint notCand3Point, final GeoPoint notCand4Point,
+      final SidedPlane candidate1, final SidedPlane candidate2, final SidedPlane candidate3, final SidedPlane candidate4)
+
+ 	public SegmentEndpoint(final GeoPoint point,
+ 	 	      final SidedPlane cutoffPlane1, final SidedPlane cutoffPlane2, final GeoPoint topEdgePoint, final GeoPoint bottomEdgePoint) 
+
+ 	public SegmentEndpoint(final GeoPoint point,
+      final SidedPlane cutoffPlane1, final SidedPlane cutoffPlane2, final GeoPoint topEdgePoint, final GeoPoint bottomEdgePoint)
+
+spatial4j/geo3d/GeoPathTest.java
+
+ 	public void testCoLinear()
+
+spatial/spatial4j/Geo3dRptTest.java
+
+	public void testFailureLucene6535()
+
+
+
  - https://issues.apache.org/jira/browse/LUCENE-6618
+
+lucene/core/src/java/org/apache/lucene/store/MMapDirectory.java
+ private static boolean checkUnmapSupported()
+
+
  - https://issues.apache.org/jira/browse/LUCENE-6704
+
+search/GeoPointDistanceQuery.java
+
+	static GeoBoundingBox computeBBox(final double centerLon, final double centerLat, final double radius)
+
+search/GeoPointDistanceQueryImpl.java
+
+	protected boolean cellIntersectsShape(final double minLon, final double minLat, final double maxLon, final double maxLat)
+
+	protected AcceptStatus accept(BytesRef term)
+
+	protected AcceptStatus postFilterBoundary(BytesRef term) 
+
+search/GeoPointInPolygonQuery.java
+
+	protected AcceptStatus accept(BytesRef term)
+
+	protected AcceptStatus postFilterBoundary(BytesRef term) 
+
+search/GeoPointTermQuery.java
+
+search/GeoPointTermsEnum.java
+
+	protected boolean cellIntersects(final double minLon, final double minLat, final double maxLon, final double maxLat) 
+
+lucene/util/GeoUtils.java
+
+	public static boolean circleWithinRect(double rMinX, final double rMinY, final double rMaxX, final double rMaxY,final double centerLon, final double centerLat, final double radius)
+ 	
+ 	private static boolean rectAnyCornersInCircle(final double rMinX, final double rMinY, final double rMaxX, final double rMaxY,final double centerLon, final double centerLat, final double radius)
+ 	
+ 	private static boolean rectAnyCornersOutsideCircle(final double rMinX, final double rMinY, final double rMaxX, final double rMaxY, final double centerLon, final double centerLat, final double radius)
+
+search/TestGeoPointQuery.java
+
+public void smallTest()
+
+public void testGeoDistanceQueryHuge()
+
  - https://issues.apache.org/jira/browse/LUCENE-6677
     
+classic/QueryParserBase.java
+
+	protected Query newWildcardQuery(Term t)
+
+classic/TestQueryParser.java
     
-    
-    
+	public void testWildcardMaxDeterminizedStates()     
     
 NOT USING
 --------------------------------------------------------------
