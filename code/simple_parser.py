@@ -5,8 +5,11 @@ Description
 """
 
 
+import inflection
+import nltk
 import ply.lex
 import plyj.parser as plyj
+import re
 
 
 def parse(string):
@@ -22,3 +25,47 @@ def parse(string):
         pass
 
     return (identifiers, comment_texts)
+
+
+class TextElementTokenizer(object):
+    def __init__(self, min_length=2, ignore=None):
+        if ignore:
+            self.ignore = set(e.lower() for e in ignore)
+        else:
+            self.ignore = []
+        self.id_split_re = re.compile(r'[_$]')
+        self.tokenizer = nltk.tokenize.RegexpTokenizer(r"[a-zA-Z0-9']+")
+        self.stemmer = nltk.stem.PorterStemmer()
+
+    def is_valid_token(token):
+        return (len(token) > min_length and not token.isnumeric() and
+                token.lower() not in self.ignore)
+    
+    def tokenize_text_elements(text_elements):
+        """Takes an iterable of text elements of arbitrary length and contents
+        and applies tokenization and identifier splitting, also validating
+        minimum length and ignored words before and after splitting.
+        """
+        
+        all_tokens = []
+        for text_element in text_elements:
+            tokens = self.tokenizer.tokenize(text_element)
+            for token in tokens:
+                if not self.is_valid_token(token):
+                    continue
+
+                new_tokens = [token.lower()]
+
+                # Attempt to split the token
+                splits = [word for word in
+                          self.id_split_re.split(inflection.underscore(token))]
+                
+                if len(splits) > 1:
+                    new_tokens.extend(s for s in splits
+                                      if self.is_valid_token(s))
+                
+                # Finally, stem all new tokens
+                all_tokens.extend(self.stemmer.stem(t) for t in new_tokens)
+
+        return all_tokens
+    

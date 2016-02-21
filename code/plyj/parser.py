@@ -1546,6 +1546,7 @@ class ClassParser(object):
 
     def p_method_body(self, p):
         '''method_body : '{' block_statements_opt '}' '''
+        print(type(p[3]))
         p[0] = p[2]
 
     def p_method_declaration(self, p):
