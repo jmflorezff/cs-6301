@@ -15,7 +15,7 @@ import sys
 def main():
     dirname = os.path.dirname(__file__)
 
-    tokenizer = simple_parser.TextElementTokenizer(2,
+    tokenizer = simple_parser.TextElementTokenizer(3,
         ([line.strip('\n')
           for line in open(os.path.join(dirname, 'java_api_classes.txt'))] +
          [line.strip('\n')

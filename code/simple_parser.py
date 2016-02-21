@@ -28,20 +28,21 @@ def parse(string):
 
 
 class TextElementTokenizer(object):
-    def __init__(self, min_length=2, ignore=None):
+    def __init__(self, min_length=3, ignore=None):
         if ignore:
             self.ignore = set(e.lower() for e in ignore)
         else:
             self.ignore = []
+        self.min_length = min_length
         self.id_split_re = re.compile(r'[_$]')
         self.tokenizer = nltk.tokenize.RegexpTokenizer(r"[a-zA-Z0-9']+")
         self.stemmer = nltk.stem.PorterStemmer()
 
-    def is_valid_token(token):
-        return (len(token) > min_length and not token.isnumeric() and
+    def is_valid_token(self, token):
+        return (len(token) >= self.min_length and not token.isnumeric() and
                 token.lower() not in self.ignore)
     
-    def tokenize_text_elements(text_elements):
+    def tokenize_text_elements(self, text_elements):
         """Takes an iterable of text elements of arbitrary length and contents
         and applies tokenization and identifier splitting, also validating
         minimum length and ignored words before and after splitting.
