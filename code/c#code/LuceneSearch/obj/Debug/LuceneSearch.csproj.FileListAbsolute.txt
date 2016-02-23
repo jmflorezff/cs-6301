@@ -78,3 +78,6 @@ C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Ana
 C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.Form1.resources
 C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.Properties.Resources.resources
 C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.csproj.GenerateResource.Cache
+C:\Users\jxj132730\Desktop\repo\code\c#code\LuceneSearch\bin\Debug\LuceneSearch.exe.config
+C:\Users\jxj132730\Desktop\repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.exe
+C:\Users\jxj132730\Desktop\repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.pdb
