@@ -54,8 +54,8 @@ namespace LuceneSearch
                 List<indexQuery> queries = new List<indexQuery>();
 
                 String line;
-                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexLuceneFile);
-                //System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
+                //System.IO.StreamReader indexFile = new System.IO.StreamReader(indexLuceneFile);
+                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
                 while ((line = indexFile.ReadLine()) != null)
                 {
                     indexDocument result = JsonConvert.DeserializeObject<indexDocument>(line);
@@ -64,8 +64,8 @@ namespace LuceneSearch
                 indexFile.Close();
 
                 line = "";
-                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryLuceneFile);
-                //System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
+                //System.IO.StreamReader queryFile = new System.IO.StreamReader(queryLuceneFile);
+                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
                 while ((line = queryFile.ReadLine()) != null)
                 {
                     indexQuery query = JsonConvert.DeserializeObject<indexQuery>(line);
@@ -73,8 +73,8 @@ namespace LuceneSearch
                 }
                 queryFile.Close();
 
-                Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_LUCENE2");//System.IO.Directory.GetCurrentDirectory());
-                //Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_RHINO2");
+                //Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_LUCENE2");//System.IO.Directory.GetCurrentDirectory());
+                Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_RHINO2");
 
                 Analyzer analyzer = new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30);
                 //CREATE INDEX
@@ -107,6 +107,7 @@ namespace LuceneSearch
                 foreach (indexQuery q in queries)
                 {
                     Document query;// = new Document();
+
                     query = q.ToDocument();
                     //console.writeline("Query " + query.Get("id"));
                     String jsonResult = "{\"query_id\": " + query.Get("id") + ", ";
@@ -154,8 +155,8 @@ namespace LuceneSearch
                         Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
-                        if (i == hits.Length-1) jsonResult += docId.ToString();
-                        else jsonResult += docId.ToString() + ", ";
+                        if (i == hits.Length-1) jsonResult += (docId + 1).ToString();
+                        else jsonResult += (docId + 1).ToString() + ", ";
                     }
                     jsonResult += "], ";
                     //console.writeline("---------------");
@@ -172,8 +173,8 @@ namespace LuceneSearch
                         //Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
-                        if (i == hits.Length-1) jsonResult += docId.ToString();
-                        else jsonResult += docId.ToString() + ", ";
+                        if (i == hits.Length - 1) jsonResult += (docId + 1).ToString();
+                        else jsonResult += (docId + 1).ToString() + ", ";
                     }
                     jsonResult += "], ";
                     //console.writeline("---------------");
@@ -188,8 +189,8 @@ namespace LuceneSearch
                         //Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
-                        if (i == hits.Length-1) jsonResult += docId.ToString();
-                        else jsonResult += docId.ToString() + ", ";
+                        if (i == hits.Length - 1) jsonResult += (docId + 1).ToString();
+                        else jsonResult += (docId + 1).ToString() + ", ";
                     }
                     jsonResult += "]}";
                     //console.writeline("---------------");
