@@ -1,0 +1,340 @@
+Query 1
+---------------
+Results for query #1 - Tile and Description:
+DocId: 9208
+DocId: 9207
+DocId: 8343
+DocId: 9209
+DocId: 8344
+DocId: 8345
+DocId: 9210
+DocId: 8037
+DocId: 8031
+DocId: 7923
+DocId: 7924
+DocId: 8370
+DocId: 1693
+DocId: 9167
+DocId: 8032
+DocId: 20690
+DocId: 9030
+DocId: 9933
+DocId: 8472
+DocId: 8607
+---------------
+Results for query #2 - Title only:
+DocId: 9207
+DocId: 9208
+DocId: 9209
+DocId: 8032
+DocId: 20690
+DocId: 8037
+DocId: 9168
+DocId: 9169
+DocId: 9170
+DocId: 8030
+DocId: 8343
+DocId: 729
+DocId: 9210
+DocId: 8344
+DocId: 8029
+DocId: 9234
+DocId: 1693
+DocId: 9167
+DocId: 983
+DocId: 6502
+---------------
+Results for query #3 - Description only:
+DocId: 8343
+DocId: 8344
+DocId: 9208
+DocId: 9209
+DocId: 9207
+DocId: 7923
+DocId: 7924
+DocId: 9933
+DocId: 8345
+DocId: 8607
+DocId: 8031
+DocId: 8609
+DocId: 15561
+DocId: 9210
+DocId: 8370
+DocId: 8472
+DocId: 9928
+DocId: 2682
+DocId: 8102
+DocId: 2920
+---------------
+Query 2
+---------------
+Results for query #1 - Tile and Description:
+DocId: 1746
+DocId: 1747
+DocId: 1613
+DocId: 1478
+DocId: 1742
+DocId: 2111
+DocId: 1433
+DocId: 2712
+DocId: 3352
+DocId: 2267
+DocId: 1598
+DocId: 1476
+DocId: 1474
+DocId: 1465
+DocId: 1599
+DocId: 1815
+DocId: 12392
+DocId: 17
+DocId: 9459
+DocId: 470
+---------------
+Results for query #2 - Title only:
+DocId: 426
+DocId: 6507
+DocId: 16827
+DocId: 432
+DocId: 6508
+DocId: 14359
+DocId: 16828
+DocId: 2781
+DocId: 2834
+DocId: 2992
+DocId: 10427
+DocId: 10628
+DocId: 10733
+DocId: 10787
+DocId: 11351
+DocId: 12197
+DocId: 157
+DocId: 189
+DocId: 245
+DocId: 283
+---------------
+Results for query #3 - Description only:
+DocId: 1746
+DocId: 1747
+DocId: 1478
+DocId: 1613
+DocId: 1742
+DocId: 2111
+DocId: 1433
+DocId: 2712
+DocId: 3352
+DocId: 2267
+DocId: 1598
+DocId: 1476
+DocId: 1474
+DocId: 1465
+DocId: 12392
+DocId: 17
+DocId: 1599
+DocId: 9459
+DocId: 1471
+DocId: 8472
+---------------
+Query 3
+---------------
+Results for query #1 - Tile and Description:
+DocId: 11701
+DocId: 5953
+DocId: 5952
+DocId: 5896
+DocId: 20043
+DocId: 5885
+DocId: 5882
+DocId: 20044
+DocId: 10967
+DocId: 5836
+DocId: 5837
+DocId: 5838
+DocId: 5708
+DocId: 10926
+DocId: 10927
+DocId: 5944
+DocId: 5839
+DocId: 5840
+DocId: 20012
+DocId: 5841
+---------------
+Results for query #2 - Title only:
+DocId: 10967
+DocId: 5896
+DocId: 20043
+DocId: 5953
+DocId: 11701
+DocId: 5885
+DocId: 5882
+DocId: 20044
+DocId: 10968
+DocId: 5952
+DocId: 5708
+DocId: 5836
+DocId: 5837
+DocId: 5838
+DocId: 5839
+DocId: 5944
+DocId: 5840
+DocId: 20012
+DocId: 5841
+DocId: 5881
+---------------
+Results for query #3 - Description only:
+DocId: 11701
+DocId: 5953
+DocId: 5952
+DocId: 5836
+DocId: 5837
+DocId: 5838
+DocId: 5896
+DocId: 20043
+DocId: 5885
+DocId: 5882
+DocId: 20044
+DocId: 10926
+DocId: 10927
+DocId: 5708
+DocId: 5944
+DocId: 10231
+DocId: 5839
+DocId: 5840
+DocId: 20012
+DocId: 5841
+---------------
+Query 4
+---------------
+Results for query #1 - Tile and Description:
+DocId: 248
+DocId: 250
+DocId: 267
+DocId: 2729
+DocId: 251
+DocId: 270
+DocId: 162
+DocId: 163
+DocId: 160
+DocId: 263
+DocId: 266
+DocId: 161
+DocId: 261
+DocId: 257
+DocId: 177
+DocId: 260
+DocId: 214
+DocId: 269
+DocId: 15758
+DocId: 220
+---------------
+Results for query #2 - Title only:
+DocId: 248
+DocId: 250
+DocId: 251
+DocId: 270
+DocId: 267
+DocId: 2729
+DocId: 263
+DocId: 261
+DocId: 162
+DocId: 160
+DocId: 163
+DocId: 177
+DocId: 260
+DocId: 240
+DocId: 15758
+DocId: 269
+DocId: 161
+DocId: 244
+DocId: 241
+DocId: 156
+---------------
+Results for query #3 - Description only:
+DocId: 248
+DocId: 250
+DocId: 267
+DocId: 2729
+DocId: 251
+DocId: 270
+DocId: 162
+DocId: 163
+DocId: 160
+DocId: 235
+DocId: 266
+DocId: 161
+DocId: 214
+DocId: 257
+DocId: 263
+DocId: 10983
+DocId: 220
+DocId: 224
+DocId: 261
+DocId: 269
+---------------
+Query 5
+---------------
+Results for query #1 - Tile and Description:
+DocId: 11162
+DocId: 11154
+DocId: 11155
+DocId: 11157
+DocId: 13483
+DocId: 13482
+DocId: 13527
+DocId: 23477
+DocId: 10537
+DocId: 13386
+DocId: 11668
+DocId: 11665
+DocId: 2848
+DocId: 13525
+DocId: 11689
+DocId: 2814
+DocId: 2854
+DocId: 11667
+DocId: 11666
+DocId: 11684
+---------------
+Results for query #2 - Title only:
+DocId: 11198
+DocId: 10957
+DocId: 11201
+DocId: 11162
+DocId: 12130
+DocId: 11832
+DocId: 10955
+DocId: 2982
+DocId: 11390
+DocId: 2844
+DocId: 11199
+DocId: 11272
+DocId: 11155
+DocId: 2877
+DocId: 11444
+DocId: 23479
+DocId: 11154
+DocId: 13483
+DocId: 11445
+DocId: 12126
+---------------
+Results for query #3 - Description only:
+DocId: 11154
+DocId: 2854
+DocId: 11157
+DocId: 11177
+DocId: 2848
+DocId: 11162
+DocId: 13527
+DocId: 2814
+DocId: 10531
+DocId: 11666
+DocId: 11665
+DocId: 13386
+DocId: 11667
+DocId: 11668
+DocId: 13525
+DocId: 11155
+DocId: 10528
+DocId: 10538
+DocId: 15729
+DocId: 10537
+---------------

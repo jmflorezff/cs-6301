@@ -1,0 +1,340 @@
+Query 1
+---------------
+Results for query #1 - Tile and Description:
+DocId: 16778
+DocId: 1596
+DocId: 15710
+DocId: 16783
+DocId: 15712
+DocId: 15179
+DocId: 8478
+DocId: 16766
+DocId: 15711
+DocId: 3422
+DocId: 8036
+DocId: 13820
+DocId: 14823
+DocId: 16777
+DocId: 6410
+DocId: 14831
+DocId: 11415
+DocId: 13630
+DocId: 9173
+DocId: 3569
+---------------
+Results for query #2 - Title only:
+DocId: 1850
+DocId: 3422
+DocId: 6410
+DocId: 13630
+DocId: 17298
+DocId: 11415
+DocId: 18531
+DocId: 16766
+DocId: 11418
+DocId: 1851
+DocId: 9173
+DocId: 8478
+DocId: 16777
+DocId: 9419
+DocId: 6306
+DocId: 12938
+DocId: 13033
+DocId: 13035
+DocId: 17768
+DocId: 20591
+---------------
+Results for query #3 - Description only:
+DocId: 1596
+DocId: 15179
+DocId: 14823
+DocId: 16778
+DocId: 14831
+DocId: 3569
+DocId: 1471
+DocId: 16651
+DocId: 16783
+DocId: 15710
+DocId: 8036
+DocId: 15711
+DocId: 2366
+DocId: 2367
+DocId: 16653
+DocId: 15712
+DocId: 16775
+DocId: 15096
+DocId: 14825
+DocId: 15005
+---------------
+Query 2
+---------------
+Results for query #1 - Tile and Description:
+DocId: 15449
+DocId: 19549
+DocId: 12523
+DocId: 12521
+DocId: 15422
+DocId: 19573
+DocId: 1596
+DocId: 8071
+DocId: 12390
+DocId: 19572
+DocId: 15318
+DocId: 12459
+DocId: 13126
+DocId: 21349
+DocId: 18952
+DocId: 19120
+DocId: 19124
+DocId: 11195
+DocId: 20070
+DocId: 7450
+---------------
+Results for query #2 - Title only:
+DocId: 11918
+DocId: 21314
+DocId: 12523
+DocId: 8069
+DocId: 8070
+DocId: 3980
+DocId: 3996
+DocId: 12521
+DocId: 14282
+DocId: 8071
+DocId: 15318
+DocId: 15449
+DocId: 21349
+DocId: 8068
+DocId: 13452
+DocId: 21265
+DocId: 21343
+DocId: 21562
+DocId: 15818
+DocId: 20070
+---------------
+Results for query #3 - Description only:
+DocId: 19549
+DocId: 12390
+DocId: 18952
+DocId: 19120
+DocId: 19124
+DocId: 19573
+DocId: 15449
+DocId: 19572
+DocId: 12459
+DocId: 1596
+DocId: 18906
+DocId: 18907
+DocId: 19094
+DocId: 19125
+DocId: 15422
+DocId: 11195
+DocId: 13315
+DocId: 18902
+DocId: 18903
+DocId: 19121
+---------------
+Query 3
+---------------
+Results for query #1 - Tile and Description:
+DocId: 18952
+DocId: 19120
+DocId: 19124
+DocId: 18903
+DocId: 19121
+DocId: 1110
+DocId: 18906
+DocId: 18907
+DocId: 19094
+DocId: 19125
+DocId: 18920
+DocId: 18923
+DocId: 18934
+DocId: 18965
+DocId: 18967
+DocId: 18969
+DocId: 18970
+DocId: 18978
+DocId: 18979
+DocId: 18980
+---------------
+Results for query #2 - Title only:
+DocId: 6855
+DocId: 9071
+DocId: 6540
+DocId: 6539
+DocId: 9455
+DocId: 3134
+DocId: 16728
+DocId: 7947
+DocId: 20948
+DocId: 1831
+DocId: 20109
+DocId: 20241
+DocId: 20662
+DocId: 20681
+DocId: 20678
+DocId: 20680
+DocId: 20659
+DocId: 3237
+DocId: 20509
+DocId: 935
+---------------
+Results for query #3 - Description only:
+DocId: 18952
+DocId: 19120
+DocId: 19124
+DocId: 18903
+DocId: 19121
+DocId: 18906
+DocId: 18907
+DocId: 19094
+DocId: 19125
+DocId: 18920
+DocId: 18923
+DocId: 18934
+DocId: 18965
+DocId: 18967
+DocId: 18969
+DocId: 18970
+DocId: 18978
+DocId: 18979
+DocId: 18980
+DocId: 18981
+---------------
+Query 4
+---------------
+Results for query #1 - Tile and Description:
+DocId: 20460
+DocId: 19127
+DocId: 2854
+DocId: 2848
+DocId: 18958
+DocId: 1596
+DocId: 20461
+DocId: 20063
+DocId: 4679
+DocId: 2855
+DocId: 20064
+DocId: 1059
+DocId: 13358
+DocId: 1058
+DocId: 2856
+DocId: 20459
+DocId: 11204
+DocId: 17692
+DocId: 14223
+DocId: 10424
+---------------
+Results for query #2 - Title only:
+DocId: 16712
+DocId: 18859
+DocId: 7882
+DocId: 18955
+DocId: 18544
+DocId: 16375
+DocId: 14956
+DocId: 18858
+DocId: 19166
+DocId: 17692
+DocId: 1005
+DocId: 1235
+DocId: 1240
+DocId: 1245
+DocId: 2621
+DocId: 2629
+DocId: 3598
+DocId: 4126
+DocId: 4321
+DocId: 5138
+---------------
+Results for query #3 - Description only:
+DocId: 20460
+DocId: 2854
+DocId: 2848
+DocId: 1596
+DocId: 20461
+DocId: 20063
+DocId: 2855
+DocId: 20064
+DocId: 1059
+DocId: 13358
+DocId: 1058
+DocId: 2856
+DocId: 20459
+DocId: 11204
+DocId: 14223
+DocId: 10424
+DocId: 11675
+DocId: 13362
+DocId: 2867
+DocId: 11203
+---------------
+Query 5
+---------------
+Results for query #1 - Tile and Description:
+DocId: 16831
+DocId: 19475
+DocId: 2854
+DocId: 1596
+DocId: 2848
+DocId: 2856
+DocId: 18950
+DocId: 13358
+DocId: 18903
+DocId: 19121
+DocId: 2847
+DocId: 14223
+DocId: 13107
+DocId: 14224
+DocId: 11253
+DocId: 21398
+DocId: 11249
+DocId: 11250
+DocId: 443
+DocId: 21371
+---------------
+Results for query #2 - Title only:
+DocId: 13022
+DocId: 13021
+DocId: 18629
+DocId: 13017
+DocId: 18120
+DocId: 13107
+DocId: 13016
+DocId: 13018
+DocId: 13019
+DocId: 13020
+DocId: 17019
+DocId: 17059
+DocId: 17966
+DocId: 13032
+DocId: 6383
+DocId: 17058
+DocId: 18119
+DocId: 8889
+DocId: 2366
+DocId: 2367
+---------------
+Results for query #3 - Description only:
+DocId: 2854
+DocId: 1596
+DocId: 16831
+DocId: 19475
+DocId: 2848
+DocId: 2856
+DocId: 13358
+DocId: 2847
+DocId: 14223
+DocId: 14224
+DocId: 11253
+DocId: 11249
+DocId: 11250
+DocId: 443
+DocId: 2671
+DocId: 19531
+DocId: 18920
+DocId: 18934
+DocId: 8768
+DocId: 13466
+---------------

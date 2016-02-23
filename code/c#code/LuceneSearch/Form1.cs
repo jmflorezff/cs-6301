@@ -54,7 +54,8 @@ namespace LuceneSearch
                 List<indexQuery> queries = new List<indexQuery>();
 
                 String line;
-                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
+                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexLuceneFile);
+                //System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
                 while ((line = indexFile.ReadLine()) != null)
                 {
                     indexDocument result = JsonConvert.DeserializeObject<indexDocument>(line);
@@ -63,7 +64,8 @@ namespace LuceneSearch
                 indexFile.Close();
 
                 line = "";
-                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
+                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryLuceneFile);
+                //System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
                 while ((line = queryFile.ReadLine()) != null)
                 {
                     indexQuery query = JsonConvert.DeserializeObject<indexQuery>(line);
@@ -82,34 +84,93 @@ namespace LuceneSearch
                 //For each line in LUCENE-DOCUMENTS
                 foreach (indexDocument d in results)
                 {
-                    Document doc = new Document();
-                    doc.Add(new Field("name", d.name, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
-                    doc.Add(new Field("id", d.id, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
-                    doc.Add(new Field("file_name", d.file_name, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
-                    doc.Add(new Field("tokens", d.tokens.ToString(), Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
+                    Document doc;// = new Document();
+                    doc = d.ToDocument();
+                    //doc.Add(new Field("name", d.name, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
+                    //doc.Add(new Field("id", d.id, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
+                    //doc.Add(new Field("file_name", d.file_name, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
+                    //doc.Add(new Field("tokens", d.tokens.ToString(), Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
+                    writer.AddDocument(doc);
                 }
 
+                //writer.Optimize();
                 writer.Commit();
-                writer.Close();
+                writer.Dispose();
 
                 //SEARCH
-                String querystr = "23";
-                QueryParser queryParser = new QueryParser(Lucene.Net.Util.Version.LUCENE_30, "id", analyzer);
-                Query q = queryParser.Parse(querystr);
-
-                int hitsPerPage = 10;
-                Lucene.Net.Store.Directory directory = FSDirectory.Open(System.IO.Directory.GetCurrentDirectory());
-                IndexReader reader = DirectoryReader.Open(directory, true);
-                IndexSearcher searcher = new IndexSearcher(reader);
-
-                TopDocs docs = searcher.Search(q, hitsPerPage);
-                ScoreDoc[] hits = docs.ScoreDocs;
-                for (int i = 0; i < hits.Length; i++)
+                //For each query
+                foreach (indexQuery q in queries)
                 {
-                    int docId = hits[i].Doc;
-                    Document d = searcher.Doc(docId);
-                    string s = d.Get("file_name");
-                    string s2 = d.Get("tokens");
+                    Document query;// = new Document();
+                    query = q.ToDocument();
+                    Console.WriteLine("Query " + query.Get("id"));
+
+
+                    Field[] title_tokens = query.GetFields("title_tokens");
+                    Field[] description_tokens = query.GetFields("description_tokens");
+                    String title_query = "";
+                    String description_query = "";
+
+                    foreach (Field f in title_tokens) {
+                        title_query += " " + f.StringValue;
+                    }
+
+                    foreach (Field f in description_tokens)
+                    {
+                        description_query += " " + f.StringValue;
+                    }
+
+                    String query1 = title_query + " " + description_query;
+                    String query2 = title_query;
+                    String query3 = description_query;
+
+
+                    QueryParser queryParser = new QueryParser(Lucene.Net.Util.Version.LUCENE_30, "tokens", analyzer);
+                    Query query1Parsed = queryParser.Parse(query1);
+                    Query query2Parsed = queryParser.Parse(query2);
+                    Query query3Parsed = queryParser.Parse(query3);
+
+                    int hitsPerPage = 20;
+                    Lucene.Net.Store.Directory directory = FSDirectory.Open(System.IO.Directory.GetCurrentDirectory());
+                    IndexReader reader = DirectoryReader.Open(directory, true);
+                    IndexSearcher searcher = new IndexSearcher(reader);
+                    Console.WriteLine("---------------");
+
+                    Console.WriteLine("Results for query #1 - Tile and Description:");
+                    TopDocs docs = searcher.Search(query1Parsed, hitsPerPage);
+                    ScoreDoc[] hits = docs.ScoreDocs;
+                    for (int i = 0; i < hits.Length; i++)
+                    {
+                        int docId = hits[i].Doc;
+                        //Document d = searcher.Doc(docId);
+                        //string file_name = d.Get("file_name");
+                        Console.WriteLine("DocId: " + docId.ToString());
+                    }
+                    Console.WriteLine("---------------");
+
+                    Console.WriteLine("Results for query #2 - Title only:");
+                    docs = searcher.Search(query2Parsed, hitsPerPage);
+                    hits = docs.ScoreDocs;
+                    for (int i = 0; i < hits.Length; i++)
+                    {
+                        int docId = hits[i].Doc;
+                        //Document d = searcher.Doc(docId);
+                        //string file_name = d.Get("file_name");
+                        Console.WriteLine("DocId: " + docId.ToString());
+                    }
+                    Console.WriteLine("---------------");
+
+                    Console.WriteLine("Results for query #3 - Description only:");
+                    docs = searcher.Search(query3Parsed, hitsPerPage);
+                    hits = docs.ScoreDocs;
+                    for (int i = 0; i < hits.Length; i++)
+                    {
+                        int docId = hits[i].Doc;
+                        //Document d = searcher.Doc(docId);
+                        //string file_name = d.Get("file_name");
+                        Console.WriteLine("DocId: " + docId.ToString());
+                    }
+                    Console.WriteLine("---------------");
                 }
             }
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
@@ -123,7 +184,7 @@ namespace LuceneSearch
         public string[] tokens { get; set; }
     }
     class indexQuery
-    { 
+    {
         public string id { get; set; }
         public string[] title_tokens { get; set; }
         public string[] description_tokens { get; set; }
