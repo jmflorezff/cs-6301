@@ -109,7 +109,7 @@ namespace LuceneSearch
                     Document query;// = new Document();
                     query = q.ToDocument();
                     //console.writeline("Query " + query.Get("id"));
-                    String jsonResult = "{ query_id: " + query.Get("id") + ", ";
+                    String jsonResult = "{\"query_id\": " + query.Get("id") + ", ";
 
                     Field[] title_tokens = query.GetFields("title_tokens");
                     Field[] description_tokens = query.GetFields("description_tokens");
@@ -144,7 +144,7 @@ namespace LuceneSearch
                     IndexSearcher searcher = new IndexSearcher(reader);
                     //console.writeline("---------------");
 
-                    jsonResult += "title_and_description: [ ";
+                    jsonResult += "\"title_and_description\": [";
                     //console.writeline("Results for query #1 - Tile and Description:");
                     TopDocs docs = searcher.Search(query1Parsed, hitsPerPage);
                     ScoreDoc[] hits = docs.ScoreDocs;
@@ -160,7 +160,7 @@ namespace LuceneSearch
                     jsonResult += "], ";
                     //console.writeline("---------------");
 
-                    jsonResult += "title_only: [ ";
+                    jsonResult += "\"title_only\": [";
                     //console.writeline("Results for query #2 - Title only:");
                     docs = searcher.Search(query2Parsed, hitsPerPage);
                     hits = docs.ScoreDocs;
@@ -178,7 +178,7 @@ namespace LuceneSearch
                     jsonResult += "], ";
                     //console.writeline("---------------");
 
-                    jsonResult += "description_only: [ ";
+                    jsonResult += "\"description_only\": [";
                     //console.writeline("Results for query #3 - Description only:");
                     docs = searcher.Search(query3Parsed, hitsPerPage);
                     hits = docs.ScoreDocs;
@@ -191,7 +191,7 @@ namespace LuceneSearch
                         if (i == hits.Length-1) jsonResult += docId.ToString();
                         else jsonResult += docId.ToString() + ", ";
                     }
-                    jsonResult += "] }";
+                    jsonResult += "]}";
                     //console.writeline("---------------");
 
                     //resultsFile.WriteLine(jsonResult);
