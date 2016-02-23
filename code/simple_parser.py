@@ -65,8 +65,13 @@ class TextElementTokenizer(object):
                     new_tokens.extend(s for s in splits
                                       if self.is_valid_token(s))
                 
-                # Finally, stem all new tokens
-                all_tokens.extend(self.stemmer.stem(t) for t in new_tokens)
+                # Stem all new tokens
+                stemmed = [self.stemmer.stem(t).strip("'")
+                           for t in new_tokens]
+
+                # Add the stemmed tokens if they are valid after stemming
+                all_tokens.extend(s for s in stemmed
+                                  if self.is_valid_token(s))
 
         return all_tokens
     
