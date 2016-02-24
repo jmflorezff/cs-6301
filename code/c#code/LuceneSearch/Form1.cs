@@ -54,8 +54,8 @@ namespace LuceneSearch
                 List<indexQuery> queries = new List<indexQuery>();
 
                 String line;
-                //System.IO.StreamReader indexFile = new System.IO.StreamReader(indexLuceneFile);
-                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
+                System.IO.StreamReader indexFile = new System.IO.StreamReader(indexLuceneFile);
+                //System.IO.StreamReader indexFile = new System.IO.StreamReader(indexRhinoFile);
                 while ((line = indexFile.ReadLine()) != null)
                 {
                     indexDocument result = JsonConvert.DeserializeObject<indexDocument>(line);
@@ -64,8 +64,8 @@ namespace LuceneSearch
                 indexFile.Close();
 
                 line = "";
-                //System.IO.StreamReader queryFile = new System.IO.StreamReader(queryLuceneFile);
-                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
+                System.IO.StreamReader queryFile = new System.IO.StreamReader(queryLuceneFile);
+                //System.IO.StreamReader queryFile = new System.IO.StreamReader(queryRhinoFile);
                 while ((line = queryFile.ReadLine()) != null)
                 {
                     indexQuery query = JsonConvert.DeserializeObject<indexQuery>(line);
@@ -73,10 +73,14 @@ namespace LuceneSearch
                 }
                 queryFile.Close();
 
-                //Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_LUCENE2");//System.IO.Directory.GetCurrentDirectory());
-                Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_RHINO2");
+                Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_LUCENE2");//System.IO.Directory.GetCurrentDirectory());
+                //Lucene.Net.Store.Directory indexDirectory = FSDirectory.Open(@"c:\TEMP_RHINO2");
 
-                Analyzer analyzer = new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30);
+                Analyzer analyzer = new SimpleAnalyzer();
+                //Analyzer analyzer = new StopAnalyzer(Lucene.Net.Util.Version.LUCENE_30);
+                //Analyzer analyzer = new WhitespaceAnalyzer();
+                // Analyzer analyzer = new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30);
+
                 //CREATE INDEX
 
                 IndexWriterConfig config = new IndexWriterConfig();
@@ -94,13 +98,13 @@ namespace LuceneSearch
                     writer.AddDocument(doc);
                 }
 
-                //writer.Optimize();
+                writer.Optimize();
                 writer.Commit();
                 writer.Dispose();
 
                 //System.IO.StreamWriter resultsFile = new System.IO.StreamWriter(@"C:\JSON_RESULTS\lucene_results.json");
                 //File.Create(@"C:\rhino_results.json");
-                
+
                 //System.IO.StreamWriter resultsFile = new System.IO.StreamWriter(@"C:\JSON_RESULTS\rhino_results.json", true);
                 //SEARCH
                 //For each query
@@ -137,7 +141,6 @@ namespace LuceneSearch
                     Query query2Parsed = queryParser.Parse(query2);
                     Query query3Parsed = queryParser.Parse(query3);
 
-
                     int hitsPerPage = 20;
 
                     //Lucene.Net.Store.Directory directory = FSDirectory.Open(System.IO.Directory.GetCurrentDirectory());
@@ -155,7 +158,7 @@ namespace LuceneSearch
                         Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
-                        if (i == hits.Length-1) jsonResult += (docId + 1).ToString();
+                        if (i == hits.Length - 1) jsonResult += (docId + 1).ToString();
                         else jsonResult += (docId + 1).ToString() + ", ";
                     }
                     jsonResult += "], ";
@@ -170,7 +173,7 @@ namespace LuceneSearch
                     for (int i = 0; i < hits.Length; i++)
                     {
                         int docId = hits[i].Doc;
-                        //Document d = searcher.Doc(docId);
+                        Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
                         if (i == hits.Length - 1) jsonResult += (docId + 1).ToString();
@@ -186,7 +189,7 @@ namespace LuceneSearch
                     for (int i = 0; i < hits.Length; i++)
                     {
                         int docId = hits[i].Doc;
-                        //Document d = searcher.Doc(docId);
+                        Document d = searcher.Doc(docId);
                         //string file_name = d.Get("file_name");
                         //console.writeline("DocId: " + docId.ToString());
                         if (i == hits.Length - 1) jsonResult += (docId + 1).ToString();

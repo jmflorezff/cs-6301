@@ -30,3 +30,36 @@ C:\Users\jxj132730\Desktop\ASSIGNMENT\code\c#code\LuceneSearch\obj\Debug\LuceneS
 C:\Users\jxj132730\Desktop\ASSIGNMENT\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.csproj.GenerateResource.Cache
 C:\Users\jxj132730\Desktop\ASSIGNMENT\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.exe
 C:\Users\jxj132730\Desktop\ASSIGNMENT\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\LuceneSearch.exe.config
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.exe
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\LuceneSearch.exe
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\LuceneSearch.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Analyzers.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Analyzers.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Core.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Core.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.FastVectorHighlighter.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.FastVectorHighlighter.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Highlighter.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Highlighter.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Memory.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Memory.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Queries.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Queries.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Regex.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Regex.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.SimpleFacetedSearch.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.SimpleFacetedSearch.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Snowball.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.Snowball.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.SpellChecker.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.Contrib.SpellChecker.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Lucene.Net.ObjectMapping.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.Form1.resources
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.Properties.Resources.resources
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Repo\code\c#code\LuceneSearch\obj\Debug\LuceneSearch.csproj.GenerateResource.Cache
