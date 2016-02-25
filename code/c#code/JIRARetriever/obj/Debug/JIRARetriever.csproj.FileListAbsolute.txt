@@ -1,0 +1,5 @@
+C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\bin\Debug\JIRARetriever.exe
+C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\bin\Debug\JIRARetriever.pdb
+C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.csprojResolveAssemblyReference.cache
+C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.exe
+C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.pdb
