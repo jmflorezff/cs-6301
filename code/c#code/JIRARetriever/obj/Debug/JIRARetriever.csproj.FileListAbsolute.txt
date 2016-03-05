@@ -3,3 +3,8 @@ C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\bin\Debug\JIRARe
 C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.csprojResolveAssemblyReference.cache
 C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.exe
 C:\Users\eduardo.gandarilla\Desktop\JIRARetriever\JIRARetriever\obj\Debug\JIRARetriever.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Shared Repo\code\c#code\JIRARetriever\obj\Debug\JIRARetriever.exe
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Shared Repo\code\c#code\JIRARetriever\obj\Debug\JIRARetriever.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Shared Repo\code\c#code\JIRARetriever\bin\Debug\JIRARetriever.exe
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Shared Repo\code\c#code\JIRARetriever\bin\Debug\JIRARetriever.pdb
+C:\Users\Eduardo Jaime\Documents\UT Dallas\Semester 4 - Spring 2015\Software Analysis\Assignments\Shared Repo\code\c#code\JIRARetriever\obj\Debug\JIRARetriever.csprojResolveAssemblyReference.cache

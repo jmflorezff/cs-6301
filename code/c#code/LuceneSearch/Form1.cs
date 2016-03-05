@@ -43,6 +43,10 @@ namespace LuceneSearch
 
         private void Form1_Load(object sender, EventArgs e)
         {
+        }
+
+        private void queryRhino_Lucene()
+        {
             try
             {
                 String indexRhinoFile = System.IO.Directory.GetCurrentDirectory() + @"\rhino-documents.json";
@@ -206,7 +210,17 @@ namespace LuceneSearch
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
 
         }
+
+        private void btnAssignment3_Click(object sender, EventArgs e)
+        {
+            JIRAParser jparser = new JIRAParser();
+            jparser.simplifyJiraBatch();
+
+            jparser.addToDictionary();
+        }
     }
+
+
     class indexDocument
     {
         public string name { get; set; }
