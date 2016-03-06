@@ -31,7 +31,7 @@ namespace LuceneSearch
     {
         public string id { get; set; }
         public string key { get; set; }
-        public string summary { get; set; }
+        public string title { get; set; }
         public string description { get; set; }
     }
 }

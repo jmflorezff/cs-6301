@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace LuceneSearch
 {
@@ -42,7 +43,11 @@ namespace LuceneSearch
                     {
                         if (issue.fields.description == null) issue.fields.description = "";
                         if (issue.fields.summary == null) issue.fields.summary = "";
-                        jsonDERBY.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary.Replace("\r\n", "").Trim() + "\", \"description\" : \"" +  issue.fields.description.Replace("\r\n", "").Trim() + "\"}");
+                        issue.fields.description = removeJunk(issue.fields.description.ToString());
+                        issue.fields.summary = removeJunk(issue.fields.summary.ToString());
+                        if (issue.fields.description == null) issue.fields.description = "";
+                        if (issue.fields.summary == null) issue.fields.summary = "";
+                        jsonDERBY.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary + "\", \"description\" : \"" + issue.fields.description + "\"}");
                     }
                 }
 
@@ -64,7 +69,11 @@ namespace LuceneSearch
                     {
                         if (issue.fields.description == null) issue.fields.description = "";
                         if (issue.fields.summary == null) issue.fields.summary = "";
-                        jsonOFBIZ.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary.Replace("\r\n", "").Trim() + "\", \"description\" : \"" + issue.fields.description.Replace("\r\n", "").Trim() + "\"}");
+                        issue.fields.description = removeJunk(issue.fields.description.ToString());
+                        issue.fields.summary = removeJunk(issue.fields.summary.ToString());
+                        if (issue.fields.description == null) issue.fields.description = "";
+                        if (issue.fields.summary == null) issue.fields.summary = "";
+                        jsonOFBIZ.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary + "\", \"description\" : \"" + issue.fields.description + "\"}");
                     }
                 }
 
@@ -78,7 +87,8 @@ namespace LuceneSearch
             }
         }
 
-        public void addToDictionary() {
+        public void addToDictionary()
+        {
             String derbyJson = AppDomain.CurrentDomain.BaseDirectory + @"jira\derby_issues_filtered.json";
             String ofbizJson = AppDomain.CurrentDomain.BaseDirectory + @"jira\ofbiz_issues_filtered.json";
 
@@ -201,5 +211,102 @@ namespace LuceneSearch
                 Console.WriteLine("ERROR: " + ex.ToString());
             }
         }
+
+        private String removeJunk(String sValue)
+        {
+            //Lower case
+            sValue = sValue.ToLower();
+
+            //Remove HTML and XML tags "<.*?>"
+            sValue = Regex.Replace(sValue, "<[^>]+>[^<]+</[^>]+>", " ");
+            //Remove URLs
+            sValue = Regex.Replace(sValue, @"http[^\s]+", " ");
+
+            //Remove non ascii chars
+            sValue = Encoding.ASCII.GetString(
+            Encoding.Convert(
+                Encoding.UTF8,
+                Encoding.GetEncoding(
+                    Encoding.ASCII.EncodingName,
+                    new EncoderReplacementFallback(string.Empty),
+                    new DecoderExceptionFallback()
+                    ),
+                Encoding.UTF8.GetBytes(sValue)
+            ));
+
+            //Remove numbers
+            sValue = Regex.Replace(sValue, @"[\d-]", " ");
+
+
+            //Remove words with less than 2 charaters
+            sValue = Regex.Replace(sValue, @"\b\w{1,2}\b", " ");
+
+
+            //Remove cl
+            sValue = sValue.Replace("\r\n", " ").Trim();
+
+            sValue = sValue + " against";
+
+            //Remove stop words
+            String[] stop_words = File.ReadAllLines(@"wordlists\stop_words.txt");
+
+            foreach (String word in stop_words)
+            {
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+            }
+
+            String[] java_keywords = File.ReadAllLines(@"wordlists\java_keywords.txt");
+
+            foreach (String word in java_keywords)
+            {
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+            }
+
+            String[] java_api_classes = File.ReadAllLines(@"wordlists\java_api_classes.txt");
+
+            foreach (String word in java_api_classes)
+            {
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+            }
+
+            //Remove Programming Tokens
+            sValue = sValue.Replace("{", " ");
+            sValue = sValue.Replace("}", " ");
+            sValue = sValue.Replace("[", " ");
+            sValue = sValue.Replace("]", " ");
+            sValue = sValue.Replace("+", " ");
+            sValue = sValue.Replace("=", " ");
+            sValue = sValue.Replace("&", " ");
+            sValue = sValue.Replace("|", " ");
+            sValue = sValue.Replace(";", " ");
+            sValue = sValue.Replace(".", " ");
+            sValue = sValue.Replace(",", " ");
+            sValue = sValue.Replace(":", " ");
+            sValue = sValue.Replace("<", " ");
+            sValue = sValue.Replace(">", " ");
+            sValue = sValue.Replace("?", " ");
+            sValue = sValue.Replace("!", " ");
+            sValue = sValue.Replace("#", " ");
+            sValue = sValue.Replace("'", " ");
+            sValue = sValue.Replace("\"", " ");
+            sValue = sValue.Replace("^", " ");
+            sValue = sValue.Replace(@"\", " ");
+            sValue = sValue.Replace("#", " ");
+            sValue = sValue.Replace("%", " ");
+            sValue = sValue.Replace("*", " ");
+            sValue = sValue.Replace("~", " ");
+
+            //Remove double spaces
+            String[] temp = sValue.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            sValue = "";
+            for (Int16 i = 0; i < temp.Length; i++)
+            {
+                sValue += temp[i] + " ";
+            }
+            sValue = sValue.Trim();
+
+            return sValue;
+        }
+
     }
 }
