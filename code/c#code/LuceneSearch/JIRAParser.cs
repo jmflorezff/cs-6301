@@ -212,8 +212,6 @@ namespace LuceneSearch
         {
            
             String sOriginal = sValue;
-            //Lower case
-            sValue = sValue.ToLower();
 
             //Remove HTML and XML tags "<.*?>"
             sValue = Regex.Replace(sValue, "<[^>]+>[^<]+</[^>]+>", " ");
@@ -239,17 +237,18 @@ namespace LuceneSearch
             //Remove words with less than 2 charaters
             sValue = Regex.Replace(sValue, @"\b\w{1,2}\b", " ");
 
-
             //Remove cl
             sValue = sValue.Replace("\r\n", " ").Trim();
 
-            //Remove stop words
-            String[] stop_words = File.ReadAllLines(@"wordlists\stop_words.txt");
+            String[] java_api_classes = File.ReadAllLines(@"wordlists\java_api_classes.txt");
 
-            foreach (String word in stop_words)
+            foreach (String word in java_api_classes)
             {
-                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+                sValue = Regex.Replace(sValue, word, " "); // @"\b" + word  + @"\b", " ");
             }
+
+            //Lower case
+            sValue = sValue.ToLower();
 
             String[] java_keywords = File.ReadAllLines(@"wordlists\java_keywords.txt");
 
@@ -258,9 +257,10 @@ namespace LuceneSearch
                 sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
             }
 
-            String[] java_api_classes = File.ReadAllLines(@"wordlists\java_api_classes.txt");
+            //Remove stop words
+            String[] stop_words = File.ReadAllLines(@"wordlists\stop_words.txt");
 
-            foreach (String word in java_api_classes)
+            foreach (String word in stop_words)
             {
                 sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
             }
@@ -301,7 +301,7 @@ namespace LuceneSearch
             }
 
             //Remove double spaces
-            temp = sValue.Split(new[] { '.' }, StringSplitOptions.RemoveEmptyEntries);
+            temp = sValue.Split(new[] { ". " }, StringSplitOptions.RemoveEmptyEntries);
             sValue = "";
             for (Int16 i = 0; i < temp.Length; i++)
             {
