@@ -45,9 +45,7 @@ namespace LuceneSearch
                         if (issue.fields.summary == null) issue.fields.summary = "";
                         issue.fields.description = removeJunk(issue.fields.description.ToString());
                         issue.fields.summary = removeJunk(issue.fields.summary.ToString());
-                        if (issue.fields.description == null) issue.fields.description = "";
-                        if (issue.fields.summary == null) issue.fields.summary = "";
-                        jsonDERBY.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary + "\", \"description\" : \"" + issue.fields.description + "\"}");
+                        jsonDERBY.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : [" + issue.fields.summary + "], \"description\" : [" + issue.fields.description + "]}");
                     }
                 }
 
@@ -71,9 +69,7 @@ namespace LuceneSearch
                         if (issue.fields.summary == null) issue.fields.summary = "";
                         issue.fields.description = removeJunk(issue.fields.description.ToString());
                         issue.fields.summary = removeJunk(issue.fields.summary.ToString());
-                        if (issue.fields.description == null) issue.fields.description = "";
-                        if (issue.fields.summary == null) issue.fields.summary = "";
-                        jsonOFBIZ.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : \"" + issue.fields.summary + "\", \"description\" : \"" + issue.fields.description + "\"}");
+                        jsonOFBIZ.WriteLine("{ \"id\" : \"" + issue.id + "\", \"key\" : \"" + issue.key + "\", \"title\" : [" + issue.fields.summary + "], \"description\" : [" + issue.fields.description + "]}");
                     }
                 }
 
@@ -214,6 +210,8 @@ namespace LuceneSearch
 
         private String removeJunk(String sValue)
         {
+           
+            String sOriginal = sValue;
             //Lower case
             sValue = sValue.ToLower();
 
@@ -235,7 +233,7 @@ namespace LuceneSearch
             ));
 
             //Remove numbers
-            sValue = Regex.Replace(sValue, @"[\d-]", " ");
+            sValue = Regex.Replace(sValue, @"[\d]", " ");
 
 
             //Remove words with less than 2 charaters
@@ -244,8 +242,6 @@ namespace LuceneSearch
 
             //Remove cl
             sValue = sValue.Replace("\r\n", " ").Trim();
-
-            sValue = sValue + " against";
 
             //Remove stop words
             String[] stop_words = File.ReadAllLines(@"wordlists\stop_words.txt");
@@ -279,7 +275,7 @@ namespace LuceneSearch
             sValue = sValue.Replace("&", " ");
             sValue = sValue.Replace("|", " ");
             sValue = sValue.Replace(";", " ");
-            sValue = sValue.Replace(".", " ");
+            //sValue = sValue.Replace(".", " ");
             sValue = sValue.Replace(",", " ");
             sValue = sValue.Replace(":", " ");
             sValue = sValue.Replace("<", " ");
@@ -303,10 +299,29 @@ namespace LuceneSearch
             {
                 sValue += temp[i] + " ";
             }
+
+            //Remove double spaces
+            temp = sValue.Split(new[] { '.' }, StringSplitOptions.RemoveEmptyEntries);
+            sValue = "";
+            for (Int16 i = 0; i < temp.Length; i++)
+            {
+                if (temp[i] != " ")
+                {
+                    sValue += "{\"phrase\" : \"" + temp[i].Trim() + "\"}, ";
+                }
+            }
+
             sValue = sValue.Trim();
-
-            return sValue;
+            if (sValue.Length > 0)
+            {
+                sValue = sValue.Remove(sValue.Length - 1);
+                return sValue;
+            }
+            else {
+                sOriginal.Trim();
+                return "{ \"phrase\" : \"\" }";
+            }
         }
-
     }
 }
+

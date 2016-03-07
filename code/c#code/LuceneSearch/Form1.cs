@@ -216,7 +216,7 @@ namespace LuceneSearch
             JIRAParser jparser = new JIRAParser();
             jparser.simplifyJiraBatch();
 
-            jparser.addToDictionary();
+            //jparser.addToDictionary();
         }
     }
 
