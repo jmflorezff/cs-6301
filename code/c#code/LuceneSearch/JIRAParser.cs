@@ -53,6 +53,8 @@ namespace LuceneSearch
 
                 jsonDERBY.Close();
 
+                results.Clear();
+
                 indexFile = new System.IO.StreamReader(sOfbizJSON);
                 while ((line = indexFile.ReadLine()) != null)
                 {
@@ -210,13 +212,14 @@ namespace LuceneSearch
 
         private String removeJunk(String sValue)
         {
-           
+
             String sOriginal = sValue;
 
             //Remove HTML and XML tags "<.*?>"
-            sValue = Regex.Replace(sValue, "<[^>]+>[^<]+</[^>]+>", " ");
+            sValue = Regex.Replace(sValue, "<[^>]+>[^<]+</[^>]+>", " ", RegexOptions.IgnoreCase);
+
             //Remove URLs
-            sValue = Regex.Replace(sValue, @"http[^\s]+", " ");
+            sValue = Regex.Replace(sValue, @"http[^\s]+", " ", RegexOptions.IgnoreCase);
 
             //Remove non ascii chars
             sValue = Encoding.ASCII.GetString(
@@ -230,67 +233,121 @@ namespace LuceneSearch
                 Encoding.UTF8.GetBytes(sValue)
             ));
 
-            //Remove numbers
-            sValue = Regex.Replace(sValue, @"[\d]", " ");
+            //Remove white spaces
+            sValue = Regex.Replace(sValue, @"\s", " ", RegexOptions.IgnoreCase).Trim();
 
-
-            //Remove words with less than 2 charaters
-            sValue = Regex.Replace(sValue, @"\b\w{1,2}\b", " ");
-
-            //Remove cl
-            sValue = sValue.Replace("\r\n", " ").Trim();
-
+            //Remove api classes
             String[] java_api_classes = File.ReadAllLines(@"wordlists\java_api_classes.txt");
 
             foreach (String word in java_api_classes)
             {
-                sValue = Regex.Replace(sValue, word, " "); // @"\b" + word  + @"\b", " ");
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ", RegexOptions.IgnoreCase); // @"\b" + word  + @"\b", " ");
             }
 
-            //Lower case
-            sValue = sValue.ToLower();
-
+            //Remove java keywords
             String[] java_keywords = File.ReadAllLines(@"wordlists\java_keywords.txt");
 
             foreach (String word in java_keywords)
             {
-                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ", RegexOptions.IgnoreCase);
             }
 
             //Remove stop words
             String[] stop_words = File.ReadAllLines(@"wordlists\stop_words.txt");
 
+
             foreach (String word in stop_words)
             {
-                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ");
+                sValue = Regex.Replace(sValue, @"\b" + word + @"\b", " ", RegexOptions.IgnoreCase);
             }
 
+            //Split CamelCase
+            sValue = System.Text.RegularExpressions.Regex.Replace(sValue, "([A-Z])", " $1", System.Text.RegularExpressions.RegexOptions.Compiled);
+
+            //Remove numbers
+            sValue = Regex.Replace(sValue, @"[\d]", " ", RegexOptions.IgnoreCase);
+
+            //Remove words with less than 2 charaters
+            sValue = Regex.Replace(sValue, @"\b\w{1,2}\b", " ", RegexOptions.IgnoreCase);
+
+            //Lower case
+            sValue = sValue.ToLower();
+
+            //Remove comments
+            String blockComments = @"/\*(.*?)\*/";
+            sValue = Regex.Replace(sValue, blockComments, " ", RegexOptions.IgnoreCase);
+
+            //String lineComments = @"//(.*?)\r?\n";
+            //sValue = Regex.Replace(sValue, lineComments, " ");
+
             //Remove Programming Tokens
-            sValue = sValue.Replace("{", " ");
-            sValue = sValue.Replace("}", " ");
             sValue = sValue.Replace("[", " ");
             sValue = sValue.Replace("]", " ");
-            sValue = sValue.Replace("+", " ");
             sValue = sValue.Replace("=", " ");
             sValue = sValue.Replace("&", " ");
             sValue = sValue.Replace("|", " ");
             sValue = sValue.Replace(";", " ");
-            //sValue = sValue.Replace(".", " ");
             sValue = sValue.Replace(",", " ");
             sValue = sValue.Replace(":", " ");
             sValue = sValue.Replace("<", " ");
             sValue = sValue.Replace(">", " ");
-            sValue = sValue.Replace("?", " ");
             sValue = sValue.Replace("!", " ");
             sValue = sValue.Replace("#", " ");
             sValue = sValue.Replace("'", " ");
             sValue = sValue.Replace("\"", " ");
-            sValue = sValue.Replace("^", " ");
             sValue = sValue.Replace(@"\", " ");
             sValue = sValue.Replace("#", " ");
             sValue = sValue.Replace("%", " ");
+            sValue = sValue.Replace("=", " ");
+
+            //Jira specific
+            sValue = sValue.Replace("h1.", " ");
+            sValue = sValue.Replace("h2.", " ");
+            sValue = sValue.Replace("h3.", " ");
+            sValue = sValue.Replace("h4.", " ");
+            sValue = sValue.Replace("h5.", " ");
+            sValue = sValue.Replace("h6.", " ");
+            sValue = sValue.Replace("bq.", " ");
             sValue = sValue.Replace("*", " ");
+            sValue = sValue.Replace("_", " ");
+            sValue = sValue.Replace("?", " ");
+            sValue = sValue.Replace("_", " ");
+            sValue = sValue.Replace("-deleted-", "deleted ");
+            sValue = sValue.Replace("+", " ");
+            sValue = sValue.Replace("^", " ");
+            sValue = sValue.Replace("{", " ");
+            sValue = sValue.Replace("}", " ");
             sValue = sValue.Replace("~", " ");
+            sValue = sValue.Replace("(", " ");
+            sValue = sValue.Replace(")", " ");
+            sValue = sValue.Replace("----", " ");
+            sValue = sValue.Replace("---", " ");
+            sValue = sValue.Replace("--", " ");
+            sValue = sValue.Replace(@"\\", " ");
+            sValue = sValue.Replace("(empty line)", " ");
+            sValue = sValue.Replace("(y)", " ");
+            sValue = sValue.Replace("(n)", " ");
+            sValue = sValue.Replace("(i)", " ");
+            sValue = sValue.Replace("(/)", " ");
+            sValue = sValue.Replace("(x)", " ");
+            sValue = sValue.Replace("(!)", " ");
+            sValue = sValue.Replace("(+)", " ");
+            sValue = sValue.Replace("(-)", " ");
+            sValue = sValue.Replace("(?)", " ");
+            sValue = sValue.Replace("(on)", " ");
+            sValue = sValue.Replace("(off)", " ");
+            sValue = sValue.Replace("(*)", " ");
+            sValue = sValue.Replace("(*r)", " ");
+            sValue = sValue.Replace("(*g)", " ");
+            sValue = sValue.Replace("(*b)", " ");
+            sValue = sValue.Replace("(*y)", " ");
+            sValue = sValue.Replace("(flag)", " ");
+            sValue = sValue.Replace("(flagoff)", " ");
+            sValue = sValue.Replace(":)", " ");
+            sValue = sValue.Replace(":(", " ");
+            sValue = sValue.Replace(":P", " ");
+            sValue = sValue.Replace(":D", " ");
+            sValue = sValue.Replace(";)", " ");
 
             //Remove double spaces
             String[] temp = sValue.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -300,14 +357,14 @@ namespace LuceneSearch
                 sValue += temp[i] + " ";
             }
 
-            //Remove double spaces
+            //Split in phrases
             temp = sValue.Split(new[] { ". " }, StringSplitOptions.RemoveEmptyEntries);
             sValue = "";
             for (Int16 i = 0; i < temp.Length; i++)
             {
                 if (temp[i] != " ")
                 {
-                    sValue += "{\"phrase\" : \"" + temp[i].Trim() + "\"}, ";
+                    if (temp[i].Length > 1) sValue += "{\"phrase\" : \"" + temp[i].Trim() + "\"}, ";
                 }
             }
 
