@@ -76,7 +76,7 @@ namespace LuceneSearch
                 }
 
                 line = "";
-
+                results.Clear();
                 jsonOFBIZ.Close();
             }
             catch (Exception ex)
@@ -285,6 +285,7 @@ namespace LuceneSearch
             sValue = sValue.Replace("]", " ");
             sValue = sValue.Replace("=", " ");
             sValue = sValue.Replace("&", " ");
+            sValue = sValue.Replace("$", " ");
             sValue = sValue.Replace("|", " ");
             sValue = sValue.Replace(";", " ");
             sValue = sValue.Replace(",", " ");
@@ -354,6 +355,11 @@ namespace LuceneSearch
             sValue = "";
             for (Int16 i = 0; i < temp.Length; i++)
             {
+                temp[i] = temp[i].Trim();
+                if (temp[i].Length > 0) if (temp[i][0] == '-') temp[i] = temp[i].Remove(0, 1);
+                if (temp[i].Length > 0) if (temp[i][0] == '/') temp[i] = temp[i].Remove(0, 1);
+                if (temp[i].Length > 0) if (temp[i][temp[i].Length - 1] == '-') temp[i] = temp[i].Remove(temp[i].Length - 1, 1);
+                if (temp[i].Length > 0) if (temp[i][temp[i].Length - 1] == '/') temp[i] = temp[i].Remove(temp[i].Length - 1, 1);
                 sValue += temp[i] + " ";
             }
 
@@ -364,7 +370,7 @@ namespace LuceneSearch
             {
                 if (temp[i] != " ")
                 {
-                    if (temp[i].Length > 1) sValue += "{\"phrase\" : \"" + temp[i].Trim() + "\"}, ";
+                    if (temp[i].Length > 1) sValue += "{\"phrase\" : \"" + temp[i].Replace('.', ' ').Trim() + "\"}, ";
                 }
             }
 
