@@ -370,7 +370,10 @@ namespace LuceneSearch
             {
                 if (temp[i] != " ")
                 {
-                    if (temp[i].Length > 1) sValue += "{\"phrase\" : \"" + temp[i].Replace('.', ' ').Trim() + "\"}, ";
+                    if (temp[i].Length > 2)
+                    {
+                        sValue += " \"" + temp[i].Replace('.', ' ').Trim() + "\", ";
+                    }
                 }
             }
 
@@ -380,9 +383,10 @@ namespace LuceneSearch
                 sValue = sValue.Remove(sValue.Length - 1);
                 return sValue;
             }
-            else {
+            else
+            {
                 sOriginal.Trim();
-                return "{ \"phrase\" : \"\" }";
+                return " \"\" ";
             }
         }
     }
