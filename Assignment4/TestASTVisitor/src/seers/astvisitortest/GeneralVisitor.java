@@ -67,7 +67,7 @@ public class GeneralVisitor extends ASTVisitor {
 	@SuppressWarnings("unchecked")
 	@Override
 	public boolean visit(MethodDeclaration node) {
-
+		Boolean hasParameters = false;
 		// add the name of the method to the list
 		SimpleName name = node.getName();
 		methods.add(name.getFullyQualifiedName());
@@ -77,10 +77,13 @@ public class GeneralVisitor extends ASTVisitor {
 		// For every visit to a method we get the parameters
 		List<SingleVariableDeclaration> paramList = node.parameters();
 		for (SingleVariableDeclaration param : paramList) {
+			hasParameters = true;
 			parameters.add(param.getName().getFullyQualifiedName());
 
 			formattedMethod += param.getName().getFullyQualifiedName() + ":" + param.getType().toString() + ", ";
 		}
+		if (hasParameters == false)
+			formattedMethod += "  ";
 		formattedMethod = formattedMethod.substring(0, formattedMethod.length() - 2);
 		formattedMethod += ") ";
 
@@ -101,9 +104,10 @@ public class GeneralVisitor extends ASTVisitor {
 		List<VariableDeclarationFragment> varFragments = node.fragments();
 		for (VariableDeclarationFragment fragment : varFragments) {
 			// add the name of the field
-			fields.add(fragment.getName().getFullyQualifiedName());// Format V: variable_name:type
-			String variable = "V: " + fragment.getName().getFullyQualifiedName() + ":" + node.getType().toString();
-			formattedVariables.add(variable);
+			fields.add(fragment.getName().getFullyQualifiedName());// Format V:
+																	// variable_name:type
+			//String variable = "V: " + fragment.getName().getFullyQualifiedName() + ":" + node.getType().toString();
+			//formattedVariables.add(variable);
 		}
 		return super.visit(node);
 	}
