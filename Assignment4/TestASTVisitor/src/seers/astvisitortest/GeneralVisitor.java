@@ -38,6 +38,14 @@ public class GeneralVisitor extends ASTVisitor {
 	 * List of variable declarations
 	 */
 	private List<String> declarations;
+	/**
+	 * List of parameters
+	 */
+	private List<String> formattedMethods;
+	/**
+	 * List of variable declarations
+	 */
+	private List<String> formattedVariables;
 
 	/**
 	 * Default constructor
@@ -47,6 +55,8 @@ public class GeneralVisitor extends ASTVisitor {
 		fields = new ArrayList<>();
 		parameters = new ArrayList<>();
 		declarations = new ArrayList<>();
+		formattedMethods = new ArrayList<>();
+		formattedVariables = new ArrayList<>();
 	}
 
 	/**
@@ -62,11 +72,19 @@ public class GeneralVisitor extends ASTVisitor {
 		SimpleName name = node.getName();
 		methods.add(name.getFullyQualifiedName());
 
+		String formattedMethod = "M: " + name.getFullyQualifiedName() + " (";
+
 		// For every visit to a method we get the parameters
 		List<SingleVariableDeclaration> paramList = node.parameters();
 		for (SingleVariableDeclaration param : paramList) {
 			parameters.add(param.getName().getFullyQualifiedName());
+
+			formattedMethod += param.getName().getFullyQualifiedName() + ":" + param.getType().toString() + ", ";
 		}
+		formattedMethod = formattedMethod.substring(0, formattedMethod.length() - 2);
+		formattedMethod += ") ";
+
+		formattedMethods.add(formattedMethod);
 
 		return super.visit(node);
 	}
@@ -83,7 +101,9 @@ public class GeneralVisitor extends ASTVisitor {
 		List<VariableDeclarationFragment> varFragments = node.fragments();
 		for (VariableDeclarationFragment fragment : varFragments) {
 			// add the name of the field
-			fields.add(fragment.getName().getFullyQualifiedName());
+			fields.add(fragment.getName().getFullyQualifiedName());// Format V: variable_name:type
+			String variable = "V: " + fragment.getName().getFullyQualifiedName() + ":" + node.getType().toString();
+			formattedVariables.add(variable);
 		}
 		return super.visit(node);
 	}
@@ -96,6 +116,9 @@ public class GeneralVisitor extends ASTVisitor {
 		for (VariableDeclarationFragment fragment : varFragments) {
 			// add the name of the field
 			declarations.add(fragment.getName().getFullyQualifiedName());
+			// Format V: variable_name:type
+			String variable = "V: " + fragment.getName().getFullyQualifiedName() + ":" + node.getType().toString();
+			formattedVariables.add(variable);
 		}
 		return super.visit(node);
 	}
@@ -114,6 +137,14 @@ public class GeneralVisitor extends ASTVisitor {
 
 	public List<String> getDeclarations() {
 		return declarations;
+	}
+
+	public List<String> getFormattedMethods() {
+		return formattedMethods;
+	}
+
+	public List<String> getFormattedVariables() {
+		return formattedVariables;
 	}
 
 }

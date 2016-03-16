@@ -44,6 +44,11 @@ public class MainVisitor {
 		List<String> methods = visitor.getMethods();
 		List<String> parameters = visitor.getParameters();
 		List<String> declarations = visitor.getDeclarations();
+		
+		List<String> formattedMethods = visitor.getFormattedMethods();
+		List<String> formattedVariables = visitor.getFormattedVariables();
+		
+		/*
 		for (String field : fields) {
 			System.out.println("Field: " + field);
 		}
@@ -56,6 +61,16 @@ public class MainVisitor {
 		for (String declaration : declarations) {
 			System.out.println("Declarations: " + declaration);
 		}
+		*/
+		for (String s : formattedMethods) {
+			System.out.println(s);
+		}
+		for (String s : formattedVariables) {
+			System.out.println(s);
+		}
+		
+		/* Print methods with its parameters in the format */
+		
 	}
 
 	/**
