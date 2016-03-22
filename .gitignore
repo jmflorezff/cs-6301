@@ -1,5 +1,6 @@
 **/__pycache__
 bin/
+*.iml
 
 
 ## Ignore Visual Studio temporary files, build results, and
