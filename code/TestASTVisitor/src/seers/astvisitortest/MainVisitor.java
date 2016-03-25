@@ -31,7 +31,7 @@ public class MainVisitor {
 		// file to parse
 		String baseFolder = "jabref-src";
 		String filePath = baseFolder + File.separator + "GrammarBasedSearchRule.java";
-		File file = new File(filePath);
+		File file = new File("test/test/TestClass.java");
 
 		// parse the file
 		CompilationUnit compUnit = parseFile(file);

@@ -1,7 +1,7 @@
 package test;
 
 /**
- * Created by juan on 3/22/16.
+ * Created by juan on 3/25/16.
  */
 public class TestClass {
     private int unusedField1, unusedField2;
@@ -22,4 +22,15 @@ public class TestClass {
         int actuallyUnused = 0;
         System.out.println(actuallyUnused + 1);
     }
+
+    /*
+
+     File: TestClass.java
+     * The [field] [unusedField1] is declared but never read in the code (line:[7])
+     * The [field] [unusedField2] is declared but never read in the code (line:[7])
+     * The [field] [unusedField3] is declared but never read in the code (line:[9])
+     * The [variable] [unusedVar2] is declared but never read in the code (line:[14])
+     * The [variable] is declared but never read in the code (line:[18])
+
+    * */
 }
