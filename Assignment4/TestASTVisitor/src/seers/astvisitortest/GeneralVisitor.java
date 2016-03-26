@@ -150,5 +150,5 @@ public class GeneralVisitor extends ASTVisitor {
 	public List<String> getFormattedVariables() {
 		return formattedVariables;
 	}
-
+	
 }
