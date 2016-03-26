@@ -9,6 +9,7 @@ import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Map;
 import java.util.function.Consumer;
 
@@ -20,17 +21,34 @@ public class Main {
 		String baseFolder = "SampleCode";
 		String filePath = baseFolder + File.separator + "Countdown.java";
 		File file = new File(filePath);
+		
+		// String baseFolder = "SourceCode" + File.separator + "freemind";
+		// String baseFolder = "SourceCode" + File.separator + "weka";
+		// String filePath = baseFolder;
+
+		//File folder = new File(filePath);
+		// File[] listOfFiles = folder.listFiles();
+
+		// for (File file : listOfFiles) {
+		// if (file.isFile()) {
+
+		// PrintWriter writer = new PrintWriter("freemind.txt", "UTF-8");
+		// PrintWriter writer = new PrintWriter("weka.txt", "UTF-8");
+
+		System.out.println(file.getName());
+		// writer.println(file.getName());
 
 		// parse the file
 		CompilationUnit compUnit = parseFile(file);
-		
+
 		// for (String arg : args) {
-		//System.out.println("File: " + arg.substring(arg.lastIndexOf(File.separator) + 1));
-		//File file = new File(arg);
+		// System.out.println("File: " +
+		// arg.substring(arg.lastIndexOf(File.separator) + 1));
+		// File file = new File(arg);
 
 		// parse the file
-		//CompilationUnit compUnit = parseFile(file);
-		
+		// CompilationUnit compUnit = parseFile(file);
+
 		compUnit.types().forEach(new Consumer() {
 			@Override
 			public void accept(Object o) {
@@ -39,6 +57,10 @@ public class Main {
 			}
 		});
 		System.out.println();
+		// writer.println(" ");
+		// writer.close();
+		// }
+		// }
 	}
 	// }
 

@@ -1,5 +1,4 @@
 //
-//
 // Countdown Applet
 //
 // Counts down to a paricular time/date
@@ -17,7 +16,7 @@ import java.util.Date;
 public class Countdown extends Applet implements Runnable
 {
 	// m_Countdown is the Thread object for the applet
-	private Thread	 m_Countdown = null;
+	private Thread m_Countdown = null;
 
 	// m_Date is the date to which applet will countdown
 	private Date m_Date, m_Date2;

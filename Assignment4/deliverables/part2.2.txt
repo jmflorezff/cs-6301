@@ -1,0 +1,10 @@
+Countdown.java
+* The [variable] [i] is declared but never read in the code (line:[48])
+* The [variable] [x] is declared but never read in the code (line:[54])
+* The [variable] [j] is declared but never read in the code (line:[52])
+* The [variable] [param2] is declared but never read in the code (line:[85])
+* The [variable] [fm] is declared but never read in the code (line:[119])
+* The [variable] [newDate] is declared but never read in the code (line:[165])
+* The [field] [foo] is declared but never read in the code (line:[25])
+* The [field] [m_CountdownDate] is declared but never read in the code (line:[32])
+* The [field] [m_Date2] is declared but never read in the code (line:[22])
