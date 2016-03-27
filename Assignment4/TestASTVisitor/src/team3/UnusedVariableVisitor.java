@@ -1,5 +1,7 @@
 package team3;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -14,6 +16,7 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.Assignment;
 import org.eclipse.jdt.core.dom.CompilationUnit;
+import org.eclipse.jdt.core.dom.EnumDeclaration;
 import org.eclipse.jdt.core.dom.FieldAccess;
 import org.eclipse.jdt.core.dom.FieldDeclaration;
 import org.eclipse.jdt.core.dom.InfixExpression;
@@ -29,10 +32,6 @@ import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
 /**
  * Created by Juan Florez on 3/21/16. Modified by Eduardo Jaime on 3/25/2016.
  */
-/**
- * @author Eduardo Jaime
- *
- */
 @SuppressWarnings("unchecked")
 public class UnusedVariableVisitor extends ASTVisitor {
 
@@ -46,12 +45,20 @@ public class UnusedVariableVisitor extends ASTVisitor {
 	private Set<String> fieldUses;
 	private Set<String> localUses;
 
+	// String filename = "part2.freemind.txt";
+	String filename = "part2.weka.txt";
+	FileWriter fw;
+
 	public UnusedVariableVisitor() {
-		//this.writer = writer;
+		// this.writer = writer;
 	}
 
 	public UnusedVariableVisitor(CompilationUnit root) {
 		this.root = root;
+		try {
+			fw = new FileWriter(filename, true);
+		} catch (IOException e) {
+		}
 	}
 
 	private void addDeclaration(VariableDeclaration declaration, Map<String, Integer> map) {
@@ -67,9 +74,20 @@ public class UnusedVariableVisitor extends ASTVisitor {
 					System.out.println(
 							String.format("* The [%s] [%s] is declared but " + "never read in the code (line:[%d])",
 									type, variableName, lineNumber));
-					/*writer.println(
-							String.format("* The [%s] [%s] is declared but " + "never read in the code (line:[%d])",
-									type, variableName, lineNumber));*/
+					/*
+					 * writer.println( String.format(
+					 * "* The [%s] [%s] is declared but " +
+					 * "never read in the code (line:[%d])", type, variableName,
+					 * lineNumber));
+					 */
+					try {
+						fw = new FileWriter(filename, true);
+						fw.write(String.format(
+								"* The [%s] [%s] is declared but " + "never read in the code (line:[%d]) \r\n", type,
+								variableName, lineNumber));
+						fw.close();
+					} catch (IOException e) {
+					}
 				}
 			}
 		});
@@ -95,24 +113,42 @@ public class UnusedVariableVisitor extends ASTVisitor {
 	public boolean visit(TypeDeclaration node) {
 		fieldDeclarations = new HashMap<>();
 		fieldUses = new HashSet<>();
-
-		if (root == null) {
-			root = (CompilationUnit) node.getRoot();
+		boolean bSkip = false;
+		// Get modifiers to check if class is abstract
+		List<Object> modifiers = node.modifiers();
+		Iterator<Object> iterator = modifiers.iterator();
+		while (iterator.hasNext()) {
+			Object obj = iterator.next();
+			if (obj.toString().contains("abstract")) {
+				bSkip = true;
+				try {
+					fw = new FileWriter(filename, true);
+					fw.write("ABSTRACT class skipped.");
+					fw.close();
+				} catch (IOException e) {
+				}
+			}
 		}
 
-		for (FieldDeclaration fieldDeclaration : node.getFields()) {
-			fieldDeclaration.accept(this);
-		}
 
-		for (MethodDeclaration methodDeclaration : node.getMethods()) {
-			methodDeclaration.accept(this);
-		}
+		if (node.isInterface() == false && bSkip == false) {
+			if (root == null) {
+				root = (CompilationUnit) node.getRoot();
+			}
 
-		// Delegate visiting of nested classes to other instances
-		for (TypeDeclaration typeDeclaration : node.getTypes()) {
-			typeDeclaration.accept(new UnusedVariableVisitor(root));
-		}
+			for (FieldDeclaration fieldDeclaration : node.getFields()) {
+				fieldDeclaration.accept(this);
+			}
 
+			for (MethodDeclaration methodDeclaration : node.getMethods()) {
+				methodDeclaration.accept(this);
+			}
+
+			// Delegate visiting of nested classes to other instances
+			for (TypeDeclaration typeDeclaration : node.getTypes()) {
+				typeDeclaration.accept(new UnusedVariableVisitor(root));
+			}
+		}
 		return false;
 	}
 
