@@ -413,4 +413,3 @@ File: XMLElement.java
 * The [field] [NANOXML_MINOR_VERSION] is declared but never read in the code (line:[175])
 * The [field] [NANOXML_MAJOR_VERSION] is declared but never read in the code (line:[165])
 * The [field] [serialVersionUID] is declared but never read in the code (line:[155])
-

@@ -1,20 +1,15 @@
 package seers.astvisitortest;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.FieldDeclaration;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
-import org.eclipse.jdt.core.dom.MethodRef;
-import org.eclipse.jdt.core.dom.MethodRefParameter;
 import org.eclipse.jdt.core.dom.SimpleName;
 import org.eclipse.jdt.core.dom.SingleVariableDeclaration;
-import org.eclipse.jdt.core.dom.VariableDeclaration;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
-import org.omg.Dynamic.Parameter;
 
 /**
  * General visitor that extracts methods and fields of a Java compilation unit
@@ -150,5 +145,5 @@ public class GeneralVisitor extends ASTVisitor {
 	public List<String> getFormattedVariables() {
 		return formattedVariables;
 	}
-
+	
 }

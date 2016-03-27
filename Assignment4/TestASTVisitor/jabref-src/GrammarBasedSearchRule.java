@@ -58,6 +58,7 @@ public class GrammarBasedSearchRule implements SearchRule {
 
     private ParseTree tree;
     private String query;
+    int x,y,z;
 
     public GrammarBasedSearchRule(boolean caseSensitiveSearch, boolean regExpSearch) throws RecognitionException {
         this.caseSensitiveSearch = caseSensitiveSearch;
