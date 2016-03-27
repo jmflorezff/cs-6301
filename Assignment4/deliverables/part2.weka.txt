@@ -1,0 +1,3040 @@
+File: AbstractAssociator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: AbstractClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+
+File: AbstractClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: AbstractDataSink.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+* The [field] [m_logger] is declared but never read in the code (line:[66])
+
+File: AbstractDataSource.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+* The [field] [m_design] is declared but never read in the code (line:[55])
+
+File: AbstractDensityBasedClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: AbstractEvaluationMetric.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+* The [field] [m_baseEvaluation] is declared but never read in the code (line:[99])
+
+File: AbstractEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+* The [field] [m_logger] is declared but never read in the code (line:[60])
+
+File: AbstractFileBasedStopwords.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: AbstractFileLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+* The [field] [m_structure] is declared but never read in the code (line:[54])
+
+File: AbstractFileSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+* The [field] [m_incrementalCounter] is declared but never read in the code (line:[86])
+
+File: AbstractInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: AbstractLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: AbstractOutput.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[94])
+
+File: AbstractPlotInstances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: AbstractSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [WRITE] is declared but never read in the code (line:[47])
+
+File: AbstractStopwords.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: AbstractTestSetProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [m_logger] is declared but never read in the code (line:[64])
+
+File: AbstractTimeSeries.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: AbstractTrainAndTestSetProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [m_logger] is declared but never read in the code (line:[66])
+
+File: AbstractTrainingSetProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [m_logger] is declared but never read in the code (line:[61])
+
+File: ActiveHNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [m_weightSeenAtLastSplitEval] is declared but never read in the code (line:[48])
+
+File: AdaBoostM1.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[138])
+
+File: AddClassification.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[112])
+
+File: AddCluster.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[90])
+
+File: AddExpression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[91])
+
+File: AddID.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: AdditiveRegression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+
+File: AddNoise.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+
+File: Add.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[98])
+
+File: AddUserFieldsCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: AddUserFields.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[82])
+
+File: AddValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: ADNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: AggregateableEvaluation.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: Agrawal.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[134])
+
+File: AlgorithmListPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[88])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+
+File: AlgVector.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: AllFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: AlphabeticTokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Appender.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+
+File: Apply.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: AprioriItemSet.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: Apriori.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[180])
+
+File: ArffLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+
+File: ArffPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: ArffSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: ArffSortedTableModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: ArffTableCellRenderer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: ArffTableModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: ArffTable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+* The [field] [m_RowIndex] is declared but never read in the code (line:[79])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+
+File: ArffViewerMainPanel.java
+* The [field] [DEFAULT_WIDTH] is declared but never read in the code (line:[80])
+* The [field] [DEFAULT_TOP] is declared but never read in the code (line:[86])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+* The [field] [top] is declared but never read in the code (line:[125])
+* The [field] [height] is declared but never read in the code (line:[124])
+* The [field] [DEFAULT_HEIGHT] is declared but never read in the code (line:[82])
+* The [field] [left] is declared but never read in the code (line:[126])
+* The [field] [width] is declared but never read in the code (line:[123])
+* The [field] [DEFAULT_LEFT] is declared but never read in the code (line:[84])
+
+File: ArffViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: Array.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: ASEvaluation.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: ASSearch.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: AssociationRules.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: AssociationsPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[90])
+* The [field] [m_TestInstances] is declared but never read in the code (line:[129])
+
+File: AssociatorCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: Associator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: AttributeListPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: AttributeLocator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: AttributeMetaInfo.java
+* The [field] [m_UpperBoundIsOpen] is declared but never read in the code (line:[57])
+* The [field] [m_LowerBoundIsOpen] is declared but never read in the code (line:[51])
+
+File: AttributePanelEvent.java
+* The [field] [m_yChange] is declared but never read in the code (line:[38])
+* The [field] [m_xChange] is declared but never read in the code (line:[35])
+* The [field] [m_indexVal] is declared but never read in the code (line:[41])
+
+File: AttributePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[106])
+* The [field] [m_attrib] is declared but never read in the code (line:[113])
+* The [field] [m_minC] is declared but never read in the code (line:[61])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[476])
+* The [field] [m_maxC] is declared but never read in the code (line:[60])
+
+File: AttributeSelectedClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[123])
+* The [field] [m_numClasses] is declared but never read in the code (line:[139])
+
+File: AttributeSelectionPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[76])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: AttributeSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[99])
+
+File: AttributeSetEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: AttributeStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: AttributeSummarizerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: AttributeSummarizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: AttributeSummaryPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+
+File: Attribute.java
+* The [field] [ORDERING_SYMBOLIC] is declared but never read in the code (line:[108])
+* The [field] [ARFF_ATTRIBUTE_INTEGER] is declared but never read in the code (line:[120])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[90])
+* The [field] [ARFF_ATTRIBUTE_REAL] is declared but never read in the code (line:[123])
+* The [field] [ORDERING_MODULO] is declared but never read in the code (line:[114])
+
+File: AttributeVisualizationPanel.java
+* The [field] [m_defaultColors] is declared but never read in the code (line:[187])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: AveragingResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[154])
+
+File: Bagging.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[152])
+
+File: BallNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+* The [field] [m_SplitVal] is declared but never read in the code (line:[71])
+* The [field] [m_NodeNumber] is declared but never read in the code (line:[62])
+* The [field] [m_SplitAttrib] is declared but never read in the code (line:[66])
+* The [field] [m_NumInstances] is declared but never read in the code (line:[59])
+
+File: BallSplitter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: BallTreeConstructor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+* The [field] [m_Instances] is declared but never read in the code (line:[65])
+* The [field] [m_DistanceFunction] is declared but never read in the code (line:[68])
+* The [field] [m_InstList] is declared but never read in the code (line:[82])
+
+File: BallTree.java
+* The [field] [m_MaxInstancesInLeaf] is declared but never read in the code (line:[110])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[98])
+
+File: BatchAssociationRulesEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: BatchClassifierEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: BatchClustererEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: BayesNetEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: BayesNetGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[104])
+
+File: BayesNet.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: BeanConnection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: BeanInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+* The [field] [IDLE] is declared but never read in the code (line:[70])
+* The [field] [BEAN_EXECUTING] is declared but never read in the code (line:[71])
+
+File: BeansProperties.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: BeanVisual.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+* The [field] [ICON_PATH] is declared but never read in the code (line:[59])
+
+File: BestFirst.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[103])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[148])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[92])
+
+File: BIFFormatException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: BIFReader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: BinaryItem.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: BinarySparseInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: BinC45ModelSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: BinC45Split.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: BIRCHCluster.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[264])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[357])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[198])
+
+File: BMAEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+
+File: BottomUpConstructor.java
+* The [field] [left] is declared but never read in the code (line:[340])
+* The [field] [anchor] is declared but never read in the code (line:[334])
+* The [field] [right] is declared but never read in the code (line:[342])
+* The [field] [radius] is declared but never read in the code (line:[336])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: BoundaryPanelDistributed.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: BoundaryPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[142])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[74])
+* The [field] [m_pausePlotting] is declared but never read in the code (line:[193])
+* The [field] [m_numOfSamplesPerGenerator] is declared but never read in the code (line:[130])
+
+File: BoundaryVisualizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[117])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[104])
+* The [field] [m_maxY] is declared but never read in the code (line:[276])
+* The [field] [m_maxX] is declared but never read in the code (line:[275])
+* The [field] [m_minX] is declared but never read in the code (line:[277])
+* The [field] [m_minY] is declared but never read in the code (line:[278])
+
+File: BuiltInArithmetic.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: BuiltInMath.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: BuiltInString.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[18])
+
+File: BVDecomposeSegCVSub.java
+* The [field] [m_ClassifierOptions] is declared but never read in the code (line:[168])
+
+File: BVDecompose.java
+* The [field] [m_ClassifierOptions] is declared but never read in the code (line:[123])
+
+File: C45Loader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: C45ModelSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: C45PruneableClassifierTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: C45PruneableDecList.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: C45Saver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[76])
+
+File: C45Split.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: CachedKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: Canopy.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[133])
+
+File: Capabilities.java
+* The [field] [ATTRIBUTE] is declared but never read in the code (line:[86])
+* The [field] [OTHER_CAPABILITY] is declared but never read in the code (line:[98])
+* The [field] [CLASS] is declared but never read in the code (line:[89])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+* The [field] [CLASS_CAPABILITY] is declared but never read in the code (line:[95])
+* The [field] [ATTRIBUTE_CAPABILITY] is declared but never read in the code (line:[92])
+
+File: Center.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: CfsSubsetEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[126])
+
+File: ChangeDateFormat.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[76])
+
+File: CharacterDelimitedTokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: CharacterNGramTokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: ChartEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: ChebyshevDistance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[74])
+
+File: CheckBoxList.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[143])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[498])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: CheckEstimator.java
+* The [field] [supervised] is declared but never read in the code (line:[332])
+* The [field] [incremental] is declared but never read in the code (line:[330])
+* The [field] [weighted] is declared but never read in the code (line:[331])
+* The [field] [m_EstimatorOptions] is declared but never read in the code (line:[196])
+* The [field] [m_AnalysisResults] is declared but never read in the code (line:[199])
+
+File: CholeskyDecomposition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: CISearchAlgorithm.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: ClassAssignerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: ClassAssigner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: ClassBalancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: ClassConditionalProbabilities.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: ClassificationGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: ClassificationViaRegression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: ClassifierCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: ClassifierDecList.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+* The [field] [m_test] is declared but never read in the code (line:[74])
+* The [field] [m_isEmpty] is declared but never read in the code (line:[68])
+
+File: ClassifierErrorsPlotInstances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[72])
+
+File: ClassifierPanel.java
+* The [field] [m_OutputAdditionalAttributesRange] is declared but never read in the code (line:[239])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[158])
+
+File: ClassifierPerformanceEvaluatorCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: ClassifierPerformanceEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[292])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[434])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: ClassifierSplitEvaluator.java
+* The [field] [m_numberAdditionalMeasures] is declared but never read in the code (line:[141])
+* The [field] [m_Evaluation] is declared but never read in the code (line:[124])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[115])
+
+File: ClassifierSplitModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: ClassifierTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+* The [field] [m_test] is declared but never read in the code (line:[68])
+
+File: Classifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[864])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[88])
+
+File: ClassOrder.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+
+File: ClassPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[138])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: ClassValuePickerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: ClassValuePicker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: CloseableTabTitle.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[146])
+* The [field] [m_callback] is declared but never read in the code (line:[74])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[102])
+* The [field] [m_closeAccelleratorText] is declared but never read in the code (line:[80])
+
+File: ClusterDefinition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: ClustererAssignmentsPlotInstances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: ClustererCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: ClustererPanel.java
+* The [field] [m_Summary] is declared but never read in the code (line:[238])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[130])
+
+File: ClustererPerformanceEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: Clusterer.java
+* The [field] [m_dummy] is declared but never read in the code (line:[118])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: ClusterEvaluation.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[110])
+
+File: ClusterGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: ClusterMembership.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: Cobweb.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[135])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[125])
+
+File: Colors.java
+* The [field] [m_cols] is declared but never read in the code (line:[35])
+
+File: ConditionalSufficientStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+* The [field] [m_classLookup] is declared but never read in the code (line:[43])
+
+File: ConfigurationEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: ConfusionMatrix.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: ConnectionEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+* The [field] [CONNECT] is declared but never read in the code (line:[42])
+* The [field] [DISCONNECT] is declared but never read in the code (line:[45])
+
+File: ConnectionPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: Constant.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: ConverterFileChooser.java
+* The [field] [m_ConfigureButton] is declared but never read in the code (line:[89])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+* The [field] [m_Self] is declared but never read in the code (line:[74])
+
+File: ConverterUtils.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[535])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: Copy.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: CorrelationAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: CorrelationSplitInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: CostBenefitAnalysis.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[222])
+* The [field] [m_classAttribute] is declared but never read in the code (line:[139])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[127])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[84])
+
+File: CostMatrixEditor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[89])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[198])
+* The [field] [m_fileChooser] is declared but never read in the code (line:[79])
+
+File: CostMatrix.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[74])
+* The [field] [FILE_EXTENSION] is declared but never read in the code (line:[82])
+
+File: CostSensitiveClassifierSplitEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[110])
+
+File: CostSensitiveClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[109])
+
+File: CoverTree.java
+* The [field] [parent_dist] is declared but never read in the code (line:[120])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[111])
+* The [field] [children] is declared but never read in the code (line:[123])
+* The [field] [scale] is declared but never read in the code (line:[129])
+* The [field] [max_dist] is declared but never read in the code (line:[117])
+* The [field] [dist] is declared but never read in the code (line:[198])
+* The [field] [distance] is declared but never read in the code (line:[915])
+* The [field] [index] is declared but never read in the code (line:[921])
+* The [field] [dist] is declared but never read in the code (line:[952])
+* The [field] [n] is declared but never read in the code (line:[955])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[100])
+
+File: CrossValidationFoldMakerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: CrossValidationFoldMaker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: CrossValidationResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[129])
+
+File: CrossValidationSplitResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[122])
+
+File: CSVLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[136])
+* The [field] [m_formatter] is declared but never read in the code (line:[175])
+
+File: CSVResultListener.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: CSVSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[95])
+
+File: CSV.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: CVParameterSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[130])
+* The [field] [m_ParamValue] is declared but never read in the code (line:[145])
+* The [field] [m_AddAtEnd] is declared but never read in the code (line:[148])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[120])
+
+File: DatabaseConnectionDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: DatabaseConnection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: DatabaseLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+
+File: DatabaseResultListener.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: DatabaseResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+
+File: DatabaseSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[106])
+
+File: DatabaseUtils.java
+* The [field] [TEXT] is declared but never read in the code (line:[116])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+* The [field] [BYTE] is declared but never read in the code (line:[104])
+* The [field] [LONG] is declared but never read in the code (line:[110])
+* The [field] [SHORT] is declared but never read in the code (line:[106])
+* The [field] [BOOL] is declared but never read in the code (line:[100])
+
+File: DataGeneratorPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: DataGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: DataSetEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: DatasetListPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: DataVisualizerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: DataVisualizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: DbUtils.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: Debug.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[93])
+* The [field] [TAGS_FORMAT] is declared but never read in the code (line:[105])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[441])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[564])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[673])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[899])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1182])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: DecisionStump.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: DecisionTableHashKey.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: DecisionTable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1068])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[156])
+
+File: DefaultAssociationRule.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: DefineFunction.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: DenseInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[72])
+
+File: DensityBasedClustererSplitEvaluator.java
+* The [field] [m_numberAdditionalMeasures] is declared but never read in the code (line:[145])
+* The [field] [m_Evaluation] is declared but never read in the code (line:[128])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[119])
+
+File: DerivedFieldMetaInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+* The [field] [m_displayName] is declared but never read in the code (line:[40])
+
+File: DiscreteEstimatorBayes.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: DiscreteEstimatorFullBayes.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: DiscreteEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Discretize.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: DistributeExperimentPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: Distribution.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: Drawable.java
+* The [field] [Newick] is declared but never read in the code (line:[32])
+* The [field] [TREE] is declared but never read in the code (line:[32])
+* The [field] [BayesNet] is declared but never read in the code (line:[32])
+* The [field] [NOT_DRAWABLE] is declared but never read in the code (line:[32])
+
+File: EditableBayesNet.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1809])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1843])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1878])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1980])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2112])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2180])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2228])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2279])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2305])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2336])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2375])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2453])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2487])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2515])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2544])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2572])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2601])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2629])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2657])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2685])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2713])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2750])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2790])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2826])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[91])
+
+File: EigenvalueDecomposition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: EM.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[136])
+
+File: EntropyBasedSplitCrit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: EntropySplitCrit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: EnvironmentField.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[96])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: Estimator.java
+* The [field] [m_instances] is declared but never read in the code (line:[122])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[119])
+* The [field] [m_attrIndex] is declared but never read in the code (line:[125])
+* The [field] [m_classValueIndex] is declared but never read in the code (line:[131])
+* The [field] [m_classIndex] is declared but never read in the code (line:[128])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[99])
+
+File: ETable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: EuclideanDistance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: EvaluationMetricSelectionDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: Evaluation.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[240])
+* The [field] [m_NumFolds] is declared but never read in the code (line:[246])
+
+File: ExperimenterDefaults.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: Experimenter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: Experiment.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[185])
+
+File: ExplicitTestsetResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[170])
+
+File: ExplorerDefaults.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: Explorer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[94])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: ExponentialFormat.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: Expression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: ExtensionFileFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: FarthestFirst.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: FastVector.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: FieldMetaInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[134])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: FieldRef.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: FileEnvironmentField.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: FileScriptingPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[129])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[160])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[207])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[271])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[307])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[338])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[409])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[461])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[513])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[563])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[609])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[644])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+* The [field] [m_Args] is declared but never read in the code (line:[761])
+* The [field] [IMAGES_DIR] is declared but never read in the code (line:[698])
+* The [field] [m_Undo] is declared but never read in the code (line:[752])
+* The [field] [m_ScriptArea] is declared but never read in the code (line:[707])
+* The [field] [m_OutputArea] is declared but never read in the code (line:[710])
+
+File: FilterCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: FilteredAssociationRules.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+* The [field] [m_filter] is declared but never read in the code (line:[41])
+
+File: FilteredAssociator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[146])
+
+File: FilteredClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[141])
+
+File: FilteredClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[102])
+
+File: FilteredNeighbourSearch.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: Filter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: FindWithCapabilities.java
+* The [field] [m_GenericPropertiesCreator] is declared but never read in the code (line:[229])
+
+File: FirstOrder.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[84])
+
+File: FlexibleDecimalFormat.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: FloatingPointFormat.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: FlowByExpressionCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+* The [field] [m_modifyL] is declared but never read in the code (line:[70])
+* The [field] [m_env] is declared but never read in the code (line:[69])
+
+File: FlowByExpression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+* The [field] [m_env] is declared but never read in the code (line:[79])
+* The [field] [m_showAndOr] is declared but never read in the code (line:[82])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[189])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[370])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: FPGrowth.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[168])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[279])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[433])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[491])
+* The [field] [m_levelSibling] is declared but never read in the code (line:[494])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[695])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[687])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[159])
+
+File: FromFile.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: Function.java
+* The [field] [m_parameterDefs] is declared but never read in the code (line:[46])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: GainRatioAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: GainRatioSplitCrit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: GaussianConditionalSufficientStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: GaussianProcesses.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[143])
+
+File: GeneralRegression.java
+* The [field] [m_label] is declared but never read in the code (line:[325])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[322])
+* The [field] [m_name] is declared but never read in the code (line:[324])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[339])
+* The [field] [m_miningSchemaIndex] is declared but never read in the code (line:[342])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[362])
+* The [field] [m_predictorName] is declared but never read in the code (line:[364])
+* The [field] [m_targetCategory] is declared but never read in the code (line:[374])
+* The [field] [m_parameterName] is declared but never read in the code (line:[365])
+* The [field] [m_value] is declared but never read in the code (line:[369])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[390])
+* The [field] [m_targetCategory] is declared but never read in the code (line:[394])
+* The [field] [m_df] is declared but never read in the code (line:[399])
+* The [field] [m_parameterName] is declared but never read in the code (line:[395])
+* The [field] [m_beta] is declared but never read in the code (line:[397])
+* The [field] [m_modelName] is declared but never read in the code (line:[82])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+* The [field] [m_algorithmName] is declared but never read in the code (line:[85])
+
+File: GeneratorPropertyIteratorPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: GenericArrayEditor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[310])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: GenericObjectEditorHistory.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: GenericObjectEditor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[258])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[386])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[579])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[716])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1738])
+
+File: GeneticSearch.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[114])
+* The [field] [g_bIsSquare] is declared but never read in the code (line:[144])
+
+File: GiniSplitMetric.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: GlobalScoreSearchAlgorithm.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: GraphConstants.java
+* The [field] [PLURAL_DUMMY] is declared but never read in the code (line:[42])
+* The [field] [REVERSED] is declared but never read in the code (line:[34])
+* The [field] [SINGULAR_DUMMY] is declared but never read in the code (line:[39])
+* The [field] [DIRECTED] is declared but never read in the code (line:[34])
+* The [field] [DOUBLE] is declared but never read in the code (line:[34])
+* The [field] [NORMAL] is declared but never read in the code (line:[44])
+
+File: GraphEdge.java
+* The [field] [srcLbl] is declared but never read in the code (line:[39])
+* The [field] [destLbl] is declared but never read in the code (line:[41])
+
+File: GraphEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: GraphNode.java
+* The [field] [probs] is declared but never read in the code (line:[37])
+* The [field] [prnts] is declared but never read in the code (line:[41])
+* The [field] [outcomes] is declared but never read in the code (line:[35])
+* The [field] [lbl] is declared but never read in the code (line:[33])
+* The [field] [x] is declared but never read in the code (line:[39])
+* The [field] [edges] is declared but never read in the code (line:[44])
+* The [field] [y] is declared but never read in the code (line:[39])
+* The [field] [nodeType] is declared but never read in the code (line:[46])
+
+File: GraphViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[132])
+
+File: GraphVisualizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[713])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1120])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[102])
+
+File: GreedyStepwise.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[109])
+
+File: GroovyPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: GroovyScript.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Groovy.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: GUIChooser.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1547])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+
+File: GUI.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[414])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[452])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[589])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[741])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[870])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[904])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[938])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[968])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[996])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1097])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1128])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1152])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1172])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1197])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1213])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1234])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1252])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1270])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1288])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1306])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1324])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1342])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1360])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1378])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1406])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1436])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1458])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1493])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1507])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1521])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1586])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1600])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1632])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1659])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1675])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1691])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1737])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1779])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2280])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2631])
+* The [field] [m_nZoomPercents] is declared but never read in the code (line:[182])
+* The [field] [ICONPATH] is declared but never read in the code (line:[167])
+* The [field] [m_sFileName] is declared but never read in the code (line:[130])
+* The [field] [m_Instances] is declared but never read in the code (line:[151])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[118])
+* The [field] [m_nSelectedRect] is declared but never read in the code (line:[247])
+* The [field] [m_clipboard] is declared but never read in the code (line:[383])
+
+File: HierarchicalBCEngine.java
+* The [field] [next] is declared but never read in the code (line:[2019])
+* The [field] [previous] is declared but never read in the code (line:[2019])
+* The [field] [n] is declared but never read in the code (line:[2018])
+
+File: HierarchicalClusterer.java
+* The [field] [m_iCluster1] is declared but never read in the code (line:[142])
+* The [field] [m_nClusterSize1] is declared but never read in the code (line:[144])
+* The [field] [m_fDist] is declared but never read in the code (line:[141])
+* The [field] [m_iCluster2] is declared but never read in the code (line:[143])
+* The [field] [m_nClusterSize2] is declared but never read in the code (line:[145])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[205])
+* The [field] [m_parent] is declared but never read in the code (line:[209])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[95])
+
+File: HierarchyPropertyParser.java
+* The [field] [parent] is declared but never read in the code (line:[72])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[69])
+* The [field] [children] is declared but never read in the code (line:[78])
+* The [field] [level] is declared but never read in the code (line:[81])
+* The [field] [context] is declared but never read in the code (line:[84])
+* The [field] [value] is declared but never read in the code (line:[75])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: HierarchyVisualizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+* The [field] [m_fScaleY] is declared but never read in the code (line:[47])
+* The [field] [m_fScaleX] is declared but never read in the code (line:[46])
+* The [field] [m_fTmpLength] is declared but never read in the code (line:[347])
+
+File: HillClimber.java
+* The [field] [m_fScore] is declared but never read in the code (line:[146])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[101])
+* The [field] [OPERATION_ADD] is declared but never read in the code (line:[104])
+* The [field] [OPERATION_REVERSE] is declared but never read in the code (line:[106])
+* The [field] [OPERATION_DEL] is declared but never read in the code (line:[105])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[92])
+
+File: HistoryChangedEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: HNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+* The [field] [m_leafNum] is declared but never read in the code (line:[49])
+
+File: HoeffdingTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[167])
+
+File: HoldOutSubsetEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: HostListPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+
+File: HTML.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: IBk.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[121])
+
+File: ICSSearchAlgorithm.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[76])
+
+File: ImageEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: ImageSaverCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: ImageSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: ImageViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[299])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[370])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[234])
+* The [field] [m_env] is declared but never read in the code (line:[96])
+* The [field] [m_logger] is declared but never read in the code (line:[91])
+
+File: InactiveHNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: IncrementalClassifierEvaluatorCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: IncrementalClassifierEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: IncrementalClassifierEvent.java
+* The [field] [WITHIN_BATCH] is declared but never read in the code (line:[45])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+* The [field] [BATCH_FINISHED] is declared but never read in the code (line:[46])
+
+File: InfoGainAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: InfoGainSplitCrit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: InfoGainSplitMetric.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: InfoPanelCellRenderer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: InfoPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+* The [field] [m_Parent] is declared but never read in the code (line:[58])
+
+File: InputMappedClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[118])
+
+File: InstanceComparator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: InstanceCounter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: InstanceEvent.java
+* The [field] [INSTANCE_AVAILABLE] is declared but never read in the code (line:[42])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+* The [field] [BATCH_FINISHED] is declared but never read in the code (line:[45])
+* The [field] [FORMAT_AVAILABLE] is declared but never read in the code (line:[39])
+
+File: InstanceInfoFrame.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: InstanceJoiner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: InstanceLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: InstanceQuery.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[99])
+
+File: InstanceSavePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: InstancesHelper.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[130])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[228])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[247])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[266])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: InstancesResultListener.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+
+File: InstancesSummaryPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: InstanceStreamToBatchMaker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: Instances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+* The [field] [FILE_EXTENSION] is declared but never read in the code (line:[83])
+* The [field] [SERIALIZED_OBJ_FILE_EXTENSION] is declared but never read in the code (line:[89])
+
+File: InstanceTable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[72])
+
+File: InstanceViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: InteractiveTableModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: InteractiveTablePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[125])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: InterquartileRange.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[124])
+
+File: ItemSet.java
+* The [field] [m_totalTransactions] is declared but never read in the code (line:[57])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: Item.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: IteratedLovinsStemmer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: IteratedSingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+* The [field] [m_Classifiers] is declared but never read in the code (line:[46])
+
+File: IterativeClassifierOptimizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[194])
+
+File: J48.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[161])
+
+File: JavaMacro.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[246])
+
+File: JoinCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+* The [field] [m_modifyL] is declared but never read in the code (line:[60])
+
+File: Join.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[192])
+* The [field] [m_instance] is declared but never read in the code (line:[195])
+* The [field] [m_stringVals] is declared but never read in the code (line:[203])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: JRip.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[777])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[873])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1081])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1216])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[188])
+
+File: JSONLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: JSONNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: JSONSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[86])
+
+File: JythonPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: JythonScript.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: Jython.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: K2.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[125])
+
+File: KDDataGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: KDTreeNodeSplitter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+* The [field] [MIN] is declared but never read in the code (line:[65])
+* The [field] [MAX] is declared but never read in the code (line:[68])
+
+File: KDTreeNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+* The [field] [m_Right] is declared but never read in the code (line:[58])
+* The [field] [m_NodesRectBounds] is declared but never read in the code (line:[76])
+* The [field] [m_NodeNumber] is declared but never read in the code (line:[52])
+* The [field] [m_NodeRanges] is declared but never read in the code (line:[70])
+
+File: KDTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+
+File: KernelEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: KernelFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[207])
+
+File: Kernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+* The [field] [m_data] is declared but never read in the code (line:[57])
+
+File: KMeansInpiredMethod.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: KnowledgeFlowApp.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[384])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[410])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[490])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[545])
+* The [field] [m_isMeta] is declared but never read in the code (line:[567])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[740])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2621])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2964])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[2932])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[3147])
+* The [field] [m_stopB] is declared but never read in the code (line:[3101])
+* The [field] [m_saveBB] is declared but never read in the code (line:[3099])
+* The [field] [m_groupB] is declared but never read in the code (line:[3109])
+* The [field] [m_deleteB] is declared but never read in the code (line:[3113])
+* The [field] [m_cutB] is declared but never read in the code (line:[3110])
+* The [field] [m_zoomInB] is declared but never read in the code (line:[3117])
+* The [field] [m_showFileMenu] is declared but never read in the code (line:[6880])
+* The [field] [USERCOMPONENTS_XML_EXTENSION] is declared but never read in the code (line:[3070])
+* The [field] [m_copyB] is declared but never read in the code (line:[3111])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[173])
+* The [field] [m_noteB] is declared but never read in the code (line:[3114])
+* The [field] [m_zoomOutB] is declared but never read in the code (line:[3118])
+* The [field] [m_togglePerspectivesB] is declared but never read in the code (line:[3106])
+* The [field] [m_fontM] is declared but never read in the code (line:[3056])
+
+File: KOML.java
+* The [field] [FILE_EXTENSION] is declared but never read in the code (line:[50])
+
+File: KStarCache.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[93])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[268])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: KStarConstants.java
+* The [field] [NUM_RAND_COLS] is declared but never read in the code (line:[36])
+* The [field] [ROOT_FINDER_MAX_ITER] is declared but never read in the code (line:[44])
+* The [field] [FLOOR1] is declared but never read in the code (line:[38])
+* The [field] [B_SPHERE] is declared but never read in the code (line:[48])
+* The [field] [M_AVERAGE] is declared but never read in the code (line:[60])
+* The [field] [LOG2] is declared but never read in the code (line:[40])
+* The [field] [OFF] is declared but never read in the code (line:[35])
+* The [field] [EPSILON] is declared but never read in the code (line:[41])
+* The [field] [M_MAXDIFF] is declared but never read in the code (line:[56])
+* The [field] [FLOOR] is declared but never read in the code (line:[37])
+* The [field] [B_ENTROPY] is declared but never read in the code (line:[49])
+* The [field] [ROOT_FINDER_ACCURACY] is declared but never read in the code (line:[45])
+* The [field] [M_NORMAL] is declared but never read in the code (line:[58])
+* The [field] [INITIAL_STEP] is declared but never read in the code (line:[39])
+* The [field] [M_DELETE] is declared but never read in the code (line:[54])
+* The [field] [ON] is declared but never read in the code (line:[34])
+
+File: KStarNominalAttribute.java
+* The [field] [m_NumAttributes] is declared but never read in the code (line:[100])
+
+File: KStarNumericAttribute.java
+* The [field] [m_NumAttributes] is declared but never read in the code (line:[101])
+
+File: KStar.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[101])
+* The [field] [m_ComputeRandomCols] is declared but never read in the code (line:[122])
+
+File: KStarWrapper.java
+* The [field] [actEntropy] is declared but never read in the code (line:[40])
+* The [field] [sphere] is declared but never read in the code (line:[37])
+* The [field] [avgProb] is declared but never read in the code (line:[46])
+* The [field] [randEntropy] is declared but never read in the code (line:[43])
+* The [field] [minProb] is declared but never read in the code (line:[49])
+
+File: LabeledItemSet.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: LAGDHillClimber.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+
+File: LayoutCompleteEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: LeafNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+* The [field] [m_parentBranch] is declared but never read in the code (line:[49])
+* The [field] [m_parentNode] is declared but never read in the code (line:[46])
+
+File: LearningRateResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[170])
+
+File: LED24.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[129])
+
+File: LegendPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[139])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: LibSVMLoader.java
+* The [variable] [c] is declared but never read in the code (line:[269])
+* The [variable] [iter] is declared but never read in the code (line:[286])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: LibSVMSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+
+File: LinearNNSearch.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+
+File: LinearRegression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[109])
+
+File: LinearUnit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: ListSelectorDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: LMT.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[151])
+
+File: LoaderCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: Loader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+* The [field] [BATCH] is declared but never read in the code (line:[62])
+* The [field] [NONE] is declared but never read in the code (line:[61])
+* The [field] [INCREMENTAL] is declared but never read in the code (line:[63])
+
+File: LocalScoreSearchAlgorithm.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: Logger.java
+* The [field] [m_DateFormat] is declared but never read in the code (line:[47])
+
+File: LogisticBase.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[693])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: Logistic.java
+* The [field] [m_LL] is declared but never read in the code (line:[173])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[143])
+
+File: LogitBoost.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[187])
+
+File: LogPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: LogWindow.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[474])
+
+File: LovinsStemmer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: LUDecomposition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: LWL.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[126])
+
+File: M5Base.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: M5P.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[113])
+
+File: M5Rules.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[103])
+
+File: MahalanobisEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Main.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[189])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[254])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[126])
+
+File: MakeDecList.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: MakeDensityBasedClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[103])
+
+File: MakeIndicator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: ManhattanDistance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[74])
+
+File: MappingInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: MarginCalculator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[197])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[320])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: MathExpression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[101])
+
+File: Maths.java
+* The [field] [normalDistribution] is declared but never read in the code (line:[45])
+* The [field] [chisqDistribution] is declared but never read in the code (line:[48])
+* The [field] [undefinedDistribution] is declared but never read in the code (line:[42])
+
+File: MatlabLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+
+File: MatlabSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[84])
+* The [field] [m_HeaderWritten] is declared but never read in the code (line:[96])
+
+File: MatrixPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[901])
+* The [field] [m_plottedCells] is declared but never read in the code (line:[216])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[336])
+* The [field] [m_osi] is declared but never read in the code (line:[215])
+* The [field] [datapointSize] is declared but never read in the code (line:[138])
+
+File: Matrix.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[93])
+
+File: MedianDistanceFromArbitraryPoint.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[96])
+
+File: MedianOfWidestDimension.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: MemoryUsagePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+* The [field] [m_Memory] is declared but never read in the code (line:[176])
+
+File: MergeInfrequentNominalValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: MergeManyValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: MergeNominalValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[113])
+
+File: MergeTwoValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[76])
+
+File: MetaBean.java
+* The [field] [m_xDrop] is declared but never read in the code (line:[82])
+* The [field] [m_xCreate] is declared but never read in the code (line:[80])
+* The [field] [m_yCreate] is declared but never read in the code (line:[81])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+* The [field] [m_yDrop] is declared but never read in the code (line:[83])
+
+File: MexicanHat.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[111])
+
+File: MiddleOutConstructor.java
+* The [field] [left] is declared but never read in the code (line:[1037])
+* The [field] [anchor] is declared but never read in the code (line:[1025])
+* The [field] [right] is declared but never read in the code (line:[1040])
+* The [field] [radius] is declared but never read in the code (line:[1031])
+* The [field] [distance] is declared but never read in the code (line:[1094])
+* The [field] [idx] is declared but never read in the code (line:[1091])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1129])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: MidPointOfWidestDimension.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+
+File: MiningFieldMetaInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+* The [field] [m_importance] is declared but never read in the code (line:[116])
+* The [field] [m_optypeOverride] is declared but never read in the code (line:[110])
+
+File: MiningSchema.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: MinkowskiDistance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[98])
+
+File: ModelPerformanceChartCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: ModelPerformanceChart.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: ModelSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: MultiClassClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[184])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[253])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[285])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[373])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: MultiClassClassifierUpdateable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: MultiFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: MultilayerPerceptron.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[204])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[472])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[779])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[184])
+* The [field] [m_stopped] is declared but never read in the code (line:[977])
+* The [field] [m_selected] is declared but never read in the code (line:[968])
+* The [field] [m_error] is declared but never read in the code (line:[1032])
+
+File: MultiNomialBMAEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: MultipleClassifiersCombiner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: MultiScheme.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: MultiStopwords.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: NaiveBayesMultinomialText.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[124])
+* The [field] [m_count] is declared but never read in the code (line:[126])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[117])
+
+File: NaiveBayesMultinomial.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: NaiveBayesMultinomialUpdateable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+
+File: NaiveBayes.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: NaiveBayesUpdateable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+
+File: NamedColor.java
+* The [field] [m_col] is declared but never read in the code (line:[39])
+* The [field] [m_name] is declared but never read in the code (line:[36])
+
+File: NBNodeAdaptive.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: NBNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: NBTreeClassifierTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: NBTreeModelSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: NBTreeNoSplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: NBTreeSplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: NearestNeighbourSearch.java
+* The [field] [distance] is declared but never read in the code (line:[283])
+* The [field] [index] is declared but never read in the code (line:[280])
+* The [field] [m_Distance] is declared but never read in the code (line:[320])
+* The [field] [m_Next] is declared but never read in the code (line:[323])
+* The [field] [m_Instance] is declared but never read in the code (line:[317])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+* The [field] [m_kNN] is declared but never read in the code (line:[533])
+
+File: NeuralConnection.java
+* The [field] [m_unitValue] is declared but never read in the code (line:[89])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+* The [field] [m_unitError] is declared but never read in the code (line:[92])
+
+File: NeuralNetwork.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[117])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[298])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[444])
+* The [field] [m_activationFunction] is declared but never read in the code (line:[686])
+* The [field] [m_normalizationMethod] is declared but never read in the code (line:[708])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+* The [field] [m_width] is declared but never read in the code (line:[714])
+* The [field] [m_altitude] is declared but never read in the code (line:[717])
+* The [field] [m_threshold] is declared but never read in the code (line:[711])
+* The [field] [m_functionType] is declared but never read in the code (line:[594])
+
+File: NeuralNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: NGramTokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: NominalConditionalSufficientStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+* The [field] [m_totalWeight] is declared but never read in the code (line:[99])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+* The [field] [m_missingWeight] is declared but never read in the code (line:[100])
+
+File: NominalItem.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: NominalPrediction.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: NominalToBinary.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[89])
+
+File: NominalToString.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+
+File: NonSparseToSparse.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+
+File: NormalEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: NormalizableDistance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: NormalizedPolyKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: Normalize.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[82])
+
+File: NormContinuous.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: NormDiscrete.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: NoSplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: NoSupportForMissingValuesException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: NoteCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: Note.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: NullStemmer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: Null.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: NumericCleaner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[123])
+
+File: NumericItem.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: NumericPrediction.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: NumericToBinary.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+
+File: NumericToNominal.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[73])
+
+File: NumericTransform.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: Obfuscate.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: OneRAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: OneR.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[91])
+
+File: Operators.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[222])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[237])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[252])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[267])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[282])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[299])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[315])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[331])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[345])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[361])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[377])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[393])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[409])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[425])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[441])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[456])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[473])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[488])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[503])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[521])
+
+File: OutputFormatDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+
+File: package-info.java
+
+File: PackageManager.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1432])
+* The [field] [s_atLeastOnePackageUpgradeHasOccurredInThisSession] is declared but never read in the code (line:[179])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1874])
+* The [field] [BROWSER_HOME] is declared but never read in the code (line:[149])
+* The [field] [m_newPackagesAvailableL] is declared but never read in the code (line:[155])
+
+File: PairedCorrectedTTester.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[139])
+
+File: PairedTTester.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[180])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[252])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[344])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[114])
+
+File: ParallelIteratedSingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: ParallelMultipleClassifiersCombiner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: ParentSet.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Parser.java
+* The [field] [m_Symbols] is declared but never read in the code (line:[184])
+
+File: PartitionedMultiFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: PartitionMembership.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: PART.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[142])
+
+File: PasswordField.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: PerformanceStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: PKIDiscretize.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[101])
+
+File: PlaceNode2.java
+* The [field] [m_end] is declared but never read in the code (line:[484])
+* The [field] [m_start] is declared but never read in the code (line:[482])
+* The [field] [m_right] is declared but never read in the code (line:[508])
+* The [field] [m_size] is declared but never read in the code (line:[511])
+* The [field] [m_left] is declared but never read in the code (line:[505])
+* The [field] [m_end] is declared but never read in the code (line:[517])
+* The [field] [m_gap] is declared but never read in the code (line:[502])
+* The [field] [m_pg] is declared but never read in the code (line:[499])
+* The [field] [m_start] is declared but never read in the code (line:[514])
+* The [field] [m_p] is declared but never read in the code (line:[496])
+* The [field] [m_amount] is declared but never read in the code (line:[530])
+* The [field] [m_place] is declared but never read in the code (line:[528])
+* The [field] [m_lev] is declared but never read in the code (line:[532])
+
+File: PlainText.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: Plot2D.java
+* The [field] [MAX_SHAPES] is declared but never read in the code (line:[58])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+* The [field] [m_masterName] is declared but never read in the code (line:[82])
+* The [field] [m_sIndex] is declared but never read in the code (line:[116])
+* The [field] [DEFAULT_SHAPE_SIZE] is declared but never read in the code (line:[67])
+
+File: PlotData2D.java
+* The [field] [m_displayAllPoints] is declared but never read in the code (line:[64])
+* The [field] [m_maxY] is declared but never read in the code (line:[113])
+* The [field] [m_maxX] is declared but never read in the code (line:[111])
+* The [field] [m_minC] is declared but never read in the code (line:[116])
+* The [field] [m_alwaysDisplayPointsOfThisSize] is declared but never read in the code (line:[70])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+* The [field] [m_useCustomColour] is declared but never read in the code (line:[60])
+* The [field] [m_minX] is declared but never read in the code (line:[112])
+* The [field] [m_minY] is declared but never read in the code (line:[114])
+* The [field] [m_pointLookup] is declared but never read in the code (line:[73])
+* The [field] [m_customColour] is declared but never read in the code (line:[61])
+* The [field] [m_maxC] is declared but never read in the code (line:[115])
+
+File: PMMLClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: PMMLFactory.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[555])
+
+File: PointsClosestToFurthestChildren.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[82])
+
+File: PoissonEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: PolyKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[86])
+
+File: PotentialClassIgnorer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: PrecomputedKernelMatrixKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: PreConstructedLinearModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: PredictionAppenderCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: PredictionAppender.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: Prediction.java
+* The [field] [MISSING_VALUE] is declared but never read in the code (line:[37])
+
+File: PreprocessPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+
+File: Primitives.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[98])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[120])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[143])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[165])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[200])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[235])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: PrincipalComponents.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+* The [field] [m_numInstances] is declared but never read in the code (line:[109])
+
+File: PrintableComponent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[598])
+* The [field] [m_yScale] is declared but never read in the code (line:[90])
+
+File: PrintablePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: PropertyDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: PropertyNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: PropertyPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: PropertySelectorDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: PropertySheetPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[94])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+* The [field] [m_CapabilitiesText] is declared but never read in the code (line:[296])
+
+File: PropertyText.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: PropertyValueSelector.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+
+File: ProtectedProperties.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: PruneableClassifierTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: PruneableDecList.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: Puk.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[93])
+
+File: QRDecomposition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: QueryExecuteEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: QueryPanel.java
+* The [field] [MAX_ROWS] is declared but never read in the code (line:[71])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+
+File: Queue.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: Rainbow.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: RandomCommittee.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+
+File: RandomForest.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[126])
+
+File: RandomizableClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: RandomizableClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: RandomizableDensityBasedClusterer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: RandomizableFilteredClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[105])
+
+File: RandomizableIteratedSingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: RandomizableMultipleClassifiersCombiner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: RandomizableParallelIteratedSingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: RandomizableParallelMultipleClassifiersCombiner.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: RandomizableSingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: RandomizableSingleClustererEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: Randomize.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: RandomProjection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[114])
+
+File: RandomRBF.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[111])
+
+File: RandomSplitResultProducer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[133])
+
+File: RandomSubset.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+
+File: RandomSubSpace.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[134])
+
+File: RandomTree.java
+* The [variable] [trainVariance] is declared but never read in the code (line:[925])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[877])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: RandomVariates.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: Range.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: Ranker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[73])
+
+File: RBFKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[82])
+
+File: RDG1.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[174])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[166])
+
+File: RegExpFromFile.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: RegOptimizer.java
+* The [field] [m_sparseWeights] is declared but never read in the code (line:[135])
+* The [field] [m_C] is declared but never read in the code (line:[96])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+* The [field] [m_random] is declared but never read in the code (line:[114])
+* The [field] [m_sparseIndices] is declared but never read in the code (line:[136])
+
+File: RegressionByDiscretization.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[130])
+
+File: RegressionGenerator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: RegressionSplitEvaluator.java
+* The [field] [m_Evaluation] is declared but never read in the code (line:[103])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[94])
+
+File: Regression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[134])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[193])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[277])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: RegSMOImproved.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[119])
+
+File: RegSMO.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+* The [field] [m_alpha2Star] is declared but never read in the code (line:[114])
+* The [field] [m_alpha1Star] is declared but never read in the code (line:[108])
+* The [field] [m_alpha1] is declared but never read in the code (line:[105])
+* The [field] [m_alpha2] is declared but never read in the code (line:[111])
+
+File: RelationalAttributeInfo.java
+* The [field] [m_Header] is declared but never read in the code (line:[29])
+
+File: RelationalLocator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[34])
+
+File: ReliefFAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[149])
+
+File: RemoteBoundaryVisualizerSubTask.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: RemoteEngine.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+
+File: RemoteExperimentEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+* The [field] [m_logMessage] is declared but never read in the code (line:[42])
+* The [field] [m_statusMessage] is declared but never read in the code (line:[39])
+* The [field] [m_experimentFinished] is declared but never read in the code (line:[48])
+* The [field] [m_messageString] is declared but never read in the code (line:[45])
+
+File: RemoteExperimentSubTask.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: RemoteExperiment.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[229])
+
+File: RemoteResult.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: RemoveByName.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: RemoveDuplicates.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: RemoveFolds.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+
+File: RemoveFrequentValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+
+File: RemoveMisclassified.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[95])
+
+File: RemovePercentage.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[67])
+
+File: RemoveRange.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: Remove.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: RemoveType.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: RemoveUseless.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[64])
+
+File: RemoveWithValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: RenameAttribute.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[100])
+
+File: RenameNominalValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[90])
+
+File: Reorder.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+* The [field] [m_InputStringIndex] is declared but never read in the code (line:[94])
+
+File: RepeatedHillClimber.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[99])
+
+File: ReplaceMissingValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: ReplaceMissingWithUserConstant.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+
+File: ReplaceWithMissingValue.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: RepositoryIndexGenerator.java
+* The [field] [PENTAHO_IMAGE2] is declared but never read in the code (line:[65])
+* The [field] [BIRD_IMAGE2] is declared but never read in the code (line:[63])
+
+File: REPTree.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[129])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[105])
+
+File: Resample.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: ReservoirSample.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: ResidualModelSelection.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: ResidualSplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: ResultChangedEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: ResultHistoryPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[117])
+* The [field] [m_Printer] is declared but never read in the code (line:[99])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[159])
+
+File: ResultMatrixCSV.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: ResultMatrixGnuPlot.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[109])
+
+File: ResultMatrixHTML.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: ResultMatrixLatex.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: ResultMatrixPlainText.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+
+File: ResultMatrixSignificance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: ResultMatrix.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: ResultPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+* The [field] [m_Parent] is declared but never read in the code (line:[60])
+
+File: ResultSetTableCellRenderer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: ResultSetTable.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: ResultsPanel.java
+* The [field] [m_DatasetModel] is declared but never read in the code (line:[114])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[89])
+
+File: RuleNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: RuleSetModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+* The [field] [m_predicate] is declared but never read in the code (line:[60])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[92])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[327])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[405])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[49])
+* The [field] [m_modelName] is declared but never read in the code (line:[705])
+* The [field] [m_functionType] is declared but never read in the code (line:[702])
+
+File: RuleStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: Rule.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: RunNumberPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: RunPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[93])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+* The [field] [m_ResultsPanel] is declared but never read in the code (line:[82])
+
+File: SaverCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[69])
+
+File: Saver.java
+* The [field] [BATCH] is declared but never read in the code (line:[46])
+* The [field] [NONE] is declared but never read in the code (line:[45])
+* The [field] [INCREMENTAL] is declared but never read in the code (line:[47])
+
+File: Scanner.java
+* The [field] [yyline] is declared but never read in the code (line:[237])
+* The [field] [yycolumn] is declared but never read in the code (line:[246])
+* The [field] [zzAtBOL] is declared but never read in the code (line:[251])
+* The [field] [yychar] is declared but never read in the code (line:[240])
+* The [field] [zzEOFDone] is declared but never read in the code (line:[257])
+
+File: ScatterPlotMatrix.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: Scoreable.java
+* The [field] [MDL] is declared but never read in the code (line:[36])
+* The [field] [BAYES] is declared but never read in the code (line:[34])
+* The [field] [AIC] is declared but never read in the code (line:[38])
+* The [field] [BDeu] is declared but never read in the code (line:[35])
+* The [field] [ENTROPY] is declared but never read in the code (line:[37])
+
+File: ScriptExecutionEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: ScriptingPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: Script.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: SearchAlgorithm.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+* The [field] [m_nMaxNrOfParents] is declared but never read in the code (line:[55])
+
+File: SelectedTag.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: SemanticException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[33])
+
+File: SerializedClassifier.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: SerializedInstancesLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: SerializedInstancesSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: SerializedModelSaverCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[66])
+
+File: SerializedModelSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: SerializedObject.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: SetInstancesPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: SetupModePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: SetupPanel.java
+* The [field] [m_modePanel] is declared but never read in the code (line:[91])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: SGDText.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[153])
+* The [field] [m_count] is declared but never read in the code (line:[155])
+* The [field] [m_weight] is declared but never read in the code (line:[157])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[146])
+
+File: SGD.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+
+File: ShadowBorder.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: SigmoidUnit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: SimpleBatchFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[154])
+
+File: SimpleCLIPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[74])
+
+File: SimpleCLI.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: SimpleDateFormatEditor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[73])
+* The [field] [DEFAULT_FORMAT] is declared but never read in the code (line:[53])
+
+File: SimpleEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+
+File: SimpleFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: SimpleKMeans.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[209])
+* The [field] [m_failed] is declared but never read in the code (line:[381])
+* The [field] [m_completed] is declared but never read in the code (line:[380])
+
+File: SimpleLinearRegression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: SimpleLogistic.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[135])
+
+File: SimpleSetupPanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[89])
+
+File: SimpleStreamFilter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[153])
+
+File: SimulatedAnnealing.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+* The [field] [m_bUseArcReversal] is declared but never read in the code (line:[128])
+
+File: SingleAssociatorEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: SingleClassifierEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: SingleClustererEnhancer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: SingleIndex.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: SingularValueDecomposition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: SlidingMidPointOfWidestSide.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[65])
+
+File: SMOreg.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[167])
+
+File: SMOset.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: SMO.java
+* The [field] [m_sumOfWeights] is declared but never read in the code (line:[331])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[281])
+* The [field] [m_KernelIsLinear] is declared but never read in the code (line:[1174])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[199])
+* The [field] [m_Del] is declared but never read in the code (line:[1184])
+* The [field] [m_classIndex] is declared but never read in the code (line:[1168])
+
+File: SnowballStemmer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[72])
+
+File: SortedTableModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[51])
+
+File: SorterCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: Sorter.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[149])
+* The [field] [m_instance] is declared but never read in the code (line:[152])
+* The [field] [m_stringVals] is declared but never read in the code (line:[163])
+* The [field] [m_fileNumber] is declared but never read in the code (line:[155])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[73])
+
+File: SortLabels.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[97])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[137])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[85])
+
+File: SparseArray.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: SparseInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: SparseToNonSparse.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: SplashWindow.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: SplitCandidate.java
+* The [field] [m_splitTest] is declared but never read in the code (line:[36])
+
+File: SplitCriterion.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[39])
+
+File: SplitMetric.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: SplitNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: Split.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: SpreadSubsample.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: SqlViewerDialog.java
+* The [field] [m_PanelButtons] is declared but never read in the code (line:[62])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: SQLViewerPerspective.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: SqlViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+
+File: Stacking.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[107])
+
+File: Stack.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: Standardize.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: Stats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+
+File: StratifiedRemoveFolds.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+
+File: StreamThroughput.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: StreamTokenizerUtils.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: StringKernel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[325])
+
+File: StringLocator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: StringToNominal.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[72])
+
+File: StringToWordVector.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[606])
+* The [field] [count] is declared but never read in the code (line:[609])
+* The [field] [docCount] is declared but never read in the code (line:[609])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[138])
+
+File: StripChartCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: StripChart.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[79])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[134])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[163])
+* The [field] [m_Printer] is declared but never read in the code (line:[220])
+* The [field] [m_ce] is declared but never read in the code (line:[608])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: SubsetByExpression.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: SubspaceClusterDefinition.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[87])
+
+File: SubspaceCluster.java
+* The [field] [TAGS_CLUSTERSUBTYPE] is declared but never read in the code (line:[188])
+* The [field] [m_globalMinValue] is declared but never read in the code (line:[167])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[155])
+* The [field] [m_globalMaxValue] is declared but never read in the code (line:[170])
+* The [field] [TAGS_CLUSTERTYPE] is declared but never read in the code (line:[179])
+
+File: SubstringLabelerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[59])
+
+File: SubstringLabelerRules.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[409])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+* The [field] [m_statusMessagePrefix] is declared but never read in the code (line:[80])
+* The [field] [m_env] is declared but never read in the code (line:[89])
+
+File: SubstringLabeler.java
+* The [field] [m_addFilter] is declared but never read in the code (line:[99])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: SubstringReplacerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: SubstringReplacerRules.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[179])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+* The [field] [m_statusMessagePrefix] is declared but never read in the code (line:[62])
+* The [field] [m_env] is declared but never read in the code (line:[51])
+* The [field] [m_inputStructure] is declared but never read in the code (line:[56])
+
+File: SubstringReplacer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[58])
+
+File: SupportVectorMachineModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[69])
+* The [field] [m_log] is declared but never read in the code (line:[62])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[144])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[188])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[292])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[368])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[465])
+* The [field] [m_log] is declared but never read in the code (line:[486])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+* The [field] [m_modelName] is declared but never read in the code (line:[795])
+* The [field] [m_algorithmName] is declared but never read in the code (line:[798])
+* The [field] [m_functionType] is declared but never read in the code (line:[788])
+
+File: SVMLightLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[60])
+
+File: SVMLightSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[78])
+
+File: SwapValues.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[75])
+
+File: SymmetricalUncertAttributeEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[68])
+
+File: sym.java
+* The [field] [COMMA] is declared but never read in the code (line:[21])
+* The [field] [NULL] is declared but never read in the code (line:[15])
+* The [field] [LCURLY] is declared but never read in the code (line:[23])
+* The [field] [terminalNames] is declared but never read in the code (line:[24])
+* The [field] [COLON] is declared but never read in the code (line:[13])
+* The [field] [error] is declared but never read in the code (line:[20])
+* The [field] [BOOLEAN] is declared but never read in the code (line:[14])
+* The [field] [LSQUARE] is declared but never read in the code (line:[11])
+* The [field] [RSQUARE] is declared but never read in the code (line:[16])
+* The [field] [STRING] is declared but never read in the code (line:[17])
+* The [field] [DOUBLE] is declared but never read in the code (line:[19])
+* The [field] [EOF] is declared but never read in the code (line:[18])
+* The [field] [RCURLY] is declared but never read in the code (line:[22])
+* The [field] [INTEGER] is declared but never read in the code (line:[12])
+
+File: SyntaxDocument.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: SyntaxException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[33])
+
+File: TabuSearch.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[135])
+
+File: Tag.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: TAN.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[94])
+
+File: TargetMetaInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: TaskStatusInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+* The [field] [FAILED] is declared but never read in the code (line:[48])
+* The [field] [PROCESSING] is declared but never read in the code (line:[47])
+* The [field] [FINISHED] is declared but never read in the code (line:[49])
+
+File: TestInstances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[171])
+
+File: TestSetEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: TestSetMaker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: Test.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[77])
+
+File: TextDirectoryLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[110])
+
+File: TextEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[36])
+
+File: TextSaverCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[53])
+
+File: TextSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: TextViewer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: ThresholdDataEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: ThresholdVisualizePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+
+File: TimeSeriesDelta.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[71])
+
+File: TimeSeriesTranslate.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[70])
+
+File: TitleUpdatedEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: Tokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: TopDownConstructor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[80])
+
+File: TrainingSetEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+
+File: TrainingSetMaker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: TrainTestSplitMakerCustomizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[44])
+
+File: TrainTestSplitMaker.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[43])
+
+File: TransformationDictionary.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: Transpose.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[54])
+
+File: TreeBuild.java
+* The [field] [m_label] is declared but never read in the code (line:[697])
+* The [field] [m_style] is declared but never read in the code (line:[703])
+* The [field] [m_data] is declared but never read in the code (line:[712])
+* The [field] [m_shape] is declared but never read in the code (line:[700])
+* The [field] [m_fontColor] is declared but never read in the code (line:[694])
+* The [field] [m_color] is declared but never read in the code (line:[691])
+* The [field] [m_source] is declared but never read in the code (line:[706])
+* The [field] [m_target] is declared but never read in the code (line:[709])
+* The [field] [m_id] is declared but never read in the code (line:[688])
+
+File: TreeDisplayEvent.java
+* The [field] [CLASSIFY_CHILD] is declared but never read in the code (line:[40])
+* The [field] [NO_COMMAND] is declared but never read in the code (line:[32])
+* The [field] [ACCEPT] is declared but never read in the code (line:[37])
+* The [field] [REMOVE_CHILDREN] is declared but never read in the code (line:[34])
+* The [field] [SEND_INSTANCES] is declared but never read in the code (line:[44])
+* The [field] [ADD_CHILDREN] is declared but never read in the code (line:[33])
+
+File: TreeModel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[62])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[158])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[250])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[271])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[292])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[512])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[693])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[849])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+* The [field] [m_missingValuePenalty] is declared but never read in the code (line:[1595])
+* The [field] [m_functionType] is declared but never read in the code (line:[1586])
+
+File: TreePerformanceStats.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: TreeVisualizer.java
+* The [field] [m_height] is declared but never read in the code (line:[2018])
+* The [field] [m_center] is declared but never read in the code (line:[2003])
+* The [field] [m_width] is declared but never read in the code (line:[2015])
+* The [field] [m_change] is declared but never read in the code (line:[2024])
+* The [field] [m_parent] is declared but never read in the code (line:[2029])
+* The [field] [m_side] is declared but never read in the code (line:[2009])
+* The [field] [m_quad] is declared but never read in the code (line:[2032])
+* The [field] [m_node] is declared but never read in the code (line:[2040])
+* The [field] [m_top] is declared but never read in the code (line:[2000])
+* The [field] [m_height] is declared but never read in the code (line:[2068])
+* The [field] [m_tb] is declared but never read in the code (line:[2061])
+* The [field] [m_width] is declared but never read in the code (line:[2065])
+* The [field] [m_edge] is declared but never read in the code (line:[2071])
+* The [field] [m_parent] is declared but never read in the code (line:[2051])
+* The [field] [m_side] is declared but never read in the code (line:[2057])
+* The [field] [m_child] is declared but never read in the code (line:[2054])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[100])
+
+File: Trie.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[57])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[45])
+
+File: UnassignedClassException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: UnassignedDatasetException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: UnivariateEqualFrequencyHistogramEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+
+File: UnivariateKernelEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[46])
+
+File: UnivariateMixtureEstimator.java
+* The [field] [m_normConst] is declared but never read in the code (line:[52])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[410])
+* The [field] [m_NumIntervals] is declared but never read in the code (line:[437])
+
+File: UnivariateNominalMultiwaySplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: UnivariateNormalEstimator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: UnivariateNumericBinarySplit.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: UnsupervisedAttributeEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: UnsupervisedSubsetEvaluator.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+
+File: UnsupportedAttributeTypeException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: UnsupportedClassTypeException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[35])
+
+File: VaryNode.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[38])
+* The [field] [m_iNode] is declared but never read in the code (line:[41])
+
+File: VectorDictionary.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[48])
+* The [field] [m_numberOfVectors] is declared but never read in the code (line:[51])
+
+File: VectorInstance.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: ViewerDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: VisualizableErrorEvent.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[40])
+
+File: VisualizePanelEvent.java
+* The [field] [RECTANGLE] is declared but never read in the code (line:[41])
+* The [field] [POLYGON] is declared but never read in the code (line:[43])
+* The [field] [VLINE] is declared but never read in the code (line:[45])
+* The [field] [HLINE] is declared but never read in the code (line:[46])
+* The [field] [OVAL] is declared but never read in the code (line:[42])
+* The [field] [LINE] is declared but never read in the code (line:[44])
+* The [field] [NONE] is declared but never read in the code (line:[40])
+
+File: VisualizePanel.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[41])
+
+File: VisualizeUtils.java
+* The [field] [MAX_PRECISION] is declared but never read in the code (line:[48])
+
+File: VotedPerceptron.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[102])
+
+File: Vote.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[168])
+
+File: WeightMass.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[37])
+* The [field] [m_weight] is declared but never read in the code (line:[39])
+
+File: WekaException.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[34])
+
+File: WekaPackageManager.java
+* The [field] [m_initialPackageLoadingInProcess] is declared but never read in the code (line:[116])
+* The [field] [m_noPackageMetaDataAvailable] is declared but never read in the code (line:[119])
+
+File: WekaTaskMonitor.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[47])
+
+File: WordsFromFile.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[52])
+
+File: WordTokenizer.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[50])
+
+File: WrapperSubsetEval.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[183])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[147])
+
+File: XMLBeans.java
+* The [field] [m_BeanContextSupport] is declared but never read in the code (line:[249])
+* The [field] [INDEX_BEANINSTANCES] is declared but never read in the code (line:[186])
+* The [field] [VAL_LOCATION] is declared but never read in the code (line:[141])
+
+File: XMLDocument.java
+* The [field] [DTD_PCDATA] is declared but never read in the code (line:[95])
+* The [field] [DTD_DOCTYPE] is declared but never read in the code (line:[68])
+* The [field] [DTD_SEPARATOR] is declared but never read in the code (line:[86])
+* The [field] [DTD_CDATA] is declared but never read in the code (line:[89])
+* The [field] [ATT_NAME] is declared but never read in the code (line:[108])
+* The [field] [VAL_NO] is declared but never read in the code (line:[115])
+* The [field] [DTD_ANY] is declared but never read in the code (line:[92])
+* The [field] [DTD_ZERO_OR_MORE] is declared but never read in the code (line:[83])
+* The [field] [DTD_ATTLIST] is declared but never read in the code (line:[74])
+* The [field] [DTD_IMPLIED] is declared but never read in the code (line:[98])
+* The [field] [DTD_REQUIRED] is declared but never read in the code (line:[101])
+* The [field] [DTD_ELEMENT] is declared but never read in the code (line:[71])
+* The [field] [ATT_VERSION] is declared but never read in the code (line:[105])
+* The [field] [VAL_YES] is declared but never read in the code (line:[112])
+* The [field] [DTD_OPTIONAL] is declared but never read in the code (line:[77])
+* The [field] [DTD_AT_LEAST_ONE] is declared but never read in the code (line:[80])
+
+File: XMLInstances.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[56])
+
+File: XML.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[102])
+
+File: XRFFLoader.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[55])
+
+File: XRFFSaver.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[83])
+
+File: XStream.java
+* The [field] [FILE_EXTENSION] is declared but never read in the code (line:[54])
+
+File: YongSplitInfo.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[42])
+
+File: ZeroR.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[61])
+

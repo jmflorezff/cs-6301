@@ -1,0 +1,416 @@
+File: ArrowLinkView.java
+* The [field] [iterativeLevel] is declared but never read in the code (line:[47])
+
+File: AttributeManagerDialog.java
+* The [field] [editButtonImage] is declared but never read in the code (line:[71])
+* The [field] [importDialog] is declared but never read in the code (line:[69])
+
+File: AttributePopupMenu.java
+* The [variable] [selectedRow] is declared but never read in the code (line:[205])
+* The [field] [hide] is declared but never read in the code (line:[51])
+* The [field] [edit] is declared but never read in the code (line:[49])
+
+File: AttributeRegistry.java
+* The [field] [CAPACITY_INCREMENT] is declared but never read in the code (line:[54])
+
+File: AttributeTableLayoutModel.java
+* The [field] [SHOW_SELECTED] is declared but never read in the code (line:[33])
+* The [field] [SHOW_ALL] is declared but never read in the code (line:[34])
+* The [field] [HIDE_ALL] is declared but never read in the code (line:[35])
+* The [field] [changeEvent] is declared but never read in the code (line:[40])
+
+File: AttributeTableModelDecoratorAdapter.java
+* The [variable] [node] is declared but never read in the code (line:[48])
+
+File: AttributeTable.java
+* The [variable] [h] is declared but never read in the code (line:[194])
+
+File: BrowseController.java
+* The [field] [followMapLink] is declared but never read in the code (line:[75])
+* The [field] [nodeUp] is declared but never read in the code (line:[69])
+* The [field] [nodeDown] is declared but never read in the code (line:[71])
+
+File: BubbleMainView.java
+* The [field] [BOLD_STROKE] is declared but never read in the code (line:[34])
+
+File: CloudAdapter.java
+* The [field] [DEF_STROKE] is declared but never read in the code (line:[40])
+
+File: CommonToggleChildrenFoldedAction.java
+* The [field] [logger] is declared but never read in the code (line:[40])
+
+File: CommonToggleFoldedAction.java
+* The [field] [logger] is declared but never read in the code (line:[44])
+
+File: ControllerAdapter.java
+* The [variable] [newMC] is declared but never read in the code (line:[825])
+* The [variable] [firstLoop] is declared but never read in the code (line:[1442])
+* The [variable] [dropTarget] is declared but never read in the code (line:[1485])
+
+File: Controller.java
+* The [field] [keyDocumentation] is declared but never read in the code (line:[180])
+* The [field] [bswatch] is declared but never read in the code (line:[151])
+* The [field] [about] is declared but never read in the code (line:[178])
+* The [field] [toggleLeftToolbar] is declared but never read in the code (line:[194])
+* The [field] [optionAntialiasAction] is declared but never read in the code (line:[174])
+* The [field] [zoomOut] is declared but never read in the code (line:[197])
+* The [field] [faq] is declared but never read in the code (line:[179])
+* The [field] [documentation] is declared but never read in the code (line:[182])
+* The [field] [zoomIn] is declared but never read in the code (line:[196])
+* The [field] [optionSelectionMechanismAction] is declared but never read in the code (line:[176])
+* The [field] [attributeDialog] is declared but never read in the code (line:[209])
+* The [field] [license] is declared but never read in the code (line:[183])
+* The [field] [propertyAction] is declared but never read in the code (line:[200])
+* The [field] [showFilterToolbarAction] is declared but never read in the code (line:[184])
+* The [field] [freemindUrl] is declared but never read in the code (line:[201])
+* The [field] [optionHTMLExportFoldingAction] is declared but never read in the code (line:[175])
+* The [field] [webDocu] is declared but never read in the code (line:[181])
+* The [field] [localDocumentationLinkConverter] is declared but never read in the code (line:[130])
+* The [field] [JAVA_VERSION] is declared but never read in the code (line:[326])
+* The [field] [toggleToolbar] is declared but never read in the code (line:[193])
+* The [field] [toggleMenubar] is declared but never read in the code (line:[192])
+* The [field] [quit] is declared but never read in the code (line:[168])
+
+File: ConvexHull.java
+* The [variable] [j] is declared but never read in the code (line:[107])
+* The [variable] [i] is declared but never read in the code (line:[148])
+
+File: EdgeView.java
+* The [field] [i] is declared but never read in the code (line:[40])
+
+File: EditAction.java
+* The [variable] [selected] is declared but never read in the code (line:[73])
+
+File: EditNodeBase.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[100])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[108])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[116])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[81])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[220])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[237])
+
+File: EditNodeDialog.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[69])
+* The [field] [booleanHolderForConfirmState] is declared but never read in the code (line:[59])
+
+File: EditNodeExternalApplication.java
+* The [variable] [result] is declared but never read in the code (line:[78])
+* The [variable] [result] is declared but never read in the code (line:[78])
+* The [field] [lastEditingWasSuccessful] is declared but never read in the code (line:[43])
+
+File: EditNodeTextField.java
+* The [field] [CANCEL] is declared but never read in the code (line:[65])
+
+File: EditNodeWYSIWYG.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[63])
+
+File: ExampleFileFilter.java
+* The [field] [HIDDEN_FILE] is declared but never read in the code (line:[87])
+* The [field] [TYPE_UNKNOWN] is declared but never read in the code (line:[86])
+
+File: ExportBranchAction.java
+* The [variable] [link] is declared but never read in the code (line:[75])
+
+File: FileController.java
+* The [field] [newMap] is declared but never read in the code (line:[47])
+* The [field] [center] is declared but never read in the code (line:[48])
+
+File: FilterComposerDialog.java
+* The [field] [filter] is declared but never read in the code (line:[333])
+* The [field] [simpleAttributeConditionComboBoxModel] is declared but never read in the code (line:[514])
+* The [field] [NODE_POSITION] is declared but never read in the code (line:[418])
+* The [field] [simpleIconConditionComboBoxModel] is declared but never read in the code (line:[513])
+
+File: FilterController.java
+* The [field] [FREEMIND_FILTER_EXTENSION_WITHOUT_DOT] is declared but never read in the code (line:[61])
+
+File: FilterToolbar.java
+* The [field] [filterInactiveColor] is declared but never read in the code (line:[65])
+
+File: Filter.java
+* The [field] [FILTER_SHOW_MATCHED] is declared but never read in the code (line:[34])
+* The [field] [FILTER_SHOW_HIDDEN] is declared but never read in the code (line:[38])
+* The [field] [FILTER_INITIAL_VALUE] is declared but never read in the code (line:[33])
+* The [field] [FILTER_SHOW_DESCENDANT] is declared but never read in the code (line:[36])
+* The [field] [FILTER_SHOW_ANCESTOR] is declared but never read in the code (line:[35])
+* The [field] [FILTER_SHOW_ECLIPSED] is declared but never read in the code (line:[37])
+
+File: FindAction.java
+* The [variable] [thereWereNodesToBeFolded] is declared but never read in the code (line:[282])
+* The [variable] [previousChar] is declared but never read in the code (line:[377])
+
+File: FontProperty.java
+* The [field] [mTranslator] is declared but never read in the code (line:[43])
+* The [field] [font] is declared but never read in the code (line:[41])
+
+File: FreemindAction.java
+* The [field] [actionIcon] is declared but never read in the code (line:[43])
+* The [field] [selectedIcon] is declared but never read in the code (line:[44])
+
+File: FreeMindApplet.java
+* The [variable] [rootPane] is declared but never read in the code (line:[235])
+
+File: FreeMindCommon.java
+* The [field] [FREEMIND_FILE_EXTENSION] is declared but never read in the code (line:[47])
+* The [field] [POSTFIX_TRANSLATE_ME] is declared but never read in the code (line:[50])
+* The [field] [CHECK_SPELLING] is declared but never read in the code (line:[170])
+* The [field] [LOAD_LAST_MAP] is declared but never read in the code (line:[188])
+* The [field] [LOAD_EVENT_DURING_STARTUP] is declared but never read in the code (line:[212])
+* The [field] [RESOURCE_ANTIALIAS] is declared but never read in the code (line:[172])
+* The [field] [LOAD_NEW_MAP] is declared but never read in the code (line:[192])
+* The [field] [DEFAULT_LANGUAGE] is declared but never read in the code (line:[174])
+* The [field] [RESOURCE_LANGUAGE] is declared but never read in the code (line:[169])
+* The [field] [ON_START_IF_NOT_SPECIFIED] is declared but never read in the code (line:[187])
+* The [field] [LOAD_LAST_MAPS_AND_LAYOUT] is declared but never read in the code (line:[189])
+* The [field] [MINDMAP_LAST_STATE_MAP_STORAGE] is declared but never read in the code (line:[214])
+* The [field] [SAVE_ONLY_INTRISICALLY_NEEDED_IDS] is declared but never read in the code (line:[190])
+
+File: FreeMindMain.java
+* The [field] [ENABLE_NODE_MOVEMENT] is declared but never read in the code (line:[132])
+* The [field] [VERSION_TYPE_RC] is declared but never read in the code (line:[130])
+* The [field] [VERSION_TYPE_ALPHA] is declared but never read in the code (line:[128])
+* The [field] [VERSION_TYPE_BETA] is declared but never read in the code (line:[129])
+* The [field] [VERSION_TYPE_RELEASE] is declared but never read in the code (line:[131])
+
+File: FreeMindSplashModern.java
+* The [field] [SPLASH_FONT_SIZE] is declared but never read in the code (line:[47])
+
+File: FreeMindTask.java
+* The [field] [mProgressParameters] is declared but never read in the code (line:[69])
+* The [field] [mProgressString] is declared but never read in the code (line:[65])
+
+File: FreeMind.java
+* The [variable] [p] is declared but never read in the code (line:[752])
+* The [field] [RESOURCES_DELETE_NODES_WITHOUT_QUESTION] is declared but never read in the code (line:[151])
+* The [field] [KEYSTROKE_PREVIOUS_MAP] is declared but never read in the code (line:[197])
+* The [field] [TOOLTIP_DISPLAY_TIME] is declared but never read in the code (line:[211])
+* The [field] [RESOURCES_DON_T_SHOW_NOTE_ICONS] is declared but never read in the code (line:[177])
+* The [field] [RESOURCES_SELECTION_METHOD] is declared but never read in the code (line:[119])
+* The [field] [RESOURCES_NODE_TEXT_COLOR] is declared but never read in the code (line:[125])
+* The [field] [RESOURCES_DON_T_SHOW_CLONE_ICONS] is declared but never read in the code (line:[189])
+* The [field] [RESOURCES_DISPLAY_FOLDING_BUTTONS] is declared but never read in the code (line:[225])
+* The [field] [KEYSTROKE_MOVE_MAP_LEFT] is declared but never read in the code (line:[193])
+* The [field] [RESOURCES_CONVERT_TO_CURRENT_VERSION] is declared but never read in the code (line:[173])
+* The [field] [KEYSTROKE_MOVE_MAP_RIGHT] is declared but never read in the code (line:[195])
+* The [field] [RESOURCES_SELECTED_NODE_COLOR] is declared but never read in the code (line:[127])
+* The [field] [RESOURCES_REMIND_USE_RICH_TEXT_IN_NEW_LONG_NODES] is declared but never read in the code (line:[161])
+* The [field] [RESOURCE_PRINT_ON_WHITE_BACKGROUND] is declared but never read in the code (line:[143])
+* The [field] [RESOURCES_EXECUTE_SCRIPTS_WITHOUT_NETWORK_RESTRICTION] is declared but never read in the code (line:[167])
+* The [field] [RESOURCES_CUT_NODES_WITHOUT_QUESTION] is declared but never read in the code (line:[175])
+* The [field] [RESOURCES_DON_T_SHOW_NOTE_TOOLTIPS] is declared but never read in the code (line:[203])
+* The [field] [RESOURCES_ROOT_NODE_STYLE] is declared but never read in the code (line:[123])
+* The [field] [RESOURCE_DRAW_RECTANGLE_FOR_SELECTION] is declared but never read in the code (line:[131])
+* The [field] [RESOURCES_SAVE_FOLDING_STATE] is declared but never read in the code (line:[181])
+* The [field] [RESOURCES_SEARCH_IN_NOTES_TOO] is declared but never read in the code (line:[201])
+* The [field] [RESOURCES_NODE_STYLE] is declared but never read in the code (line:[121])
+* The [field] [RESOURCES_USE_DEFAULT_FONT_FOR_NOTES_TOO] is declared but never read in the code (line:[185])
+* The [field] [KEYSTROKE_NEXT_MAP] is declared but never read in the code (line:[199])
+* The [field] [RESOURCES_BACKGROUND_COLOR] is declared but never read in the code (line:[141])
+* The [field] [RESOURCES_RELOAD_FILES_WITHOUT_QUESTION] is declared but never read in the code (line:[153])
+* The [field] [RESOURCES_COMPLETE_CLONING] is declared but never read in the code (line:[207])
+* The [field] [RESOURCES_EDGE_COLOR] is declared but never read in the code (line:[133])
+* The [field] [RESOURCES_REMOVE_NOTES_WITHOUT_QUESTION] is declared but never read in the code (line:[179])
+* The [field] [RESOURCES_USE_MARGIN_TOP_ZERO_FOR_NOTES] is declared but never read in the code (line:[187])
+* The [field] [RESOURCES_SELECTED_NODE_RECTANGLE_COLOR] is declared but never read in the code (line:[129])
+* The [field] [RESOURCES_EXECUTE_SCRIPTS_WITHOUT_ASKING] is declared but never read in the code (line:[163])
+* The [field] [RESOURCES_EDGE_STYLE] is declared but never read in the code (line:[135])
+* The [field] [RESOURCES_EXECUTE_SCRIPTS_WITHOUT_EXEC_RESTRICTION] is declared but never read in the code (line:[169])
+* The [field] [RESOURCES_CLONE_TYPE_COMPLETE_CLONE] is declared but never read in the code (line:[209])
+* The [field] [RESOURCES_CLOUD_COLOR] is declared but never read in the code (line:[137])
+* The [field] [RESOURCES_WHEEL_VELOCITY] is declared but never read in the code (line:[145])
+* The [field] [RESOURCES_EXECUTE_SCRIPTS_WITHOUT_FILE_RESTRICTION] is declared but never read in the code (line:[165])
+* The [field] [RESOURCES_USE_SPLIT_PANE] is declared but never read in the code (line:[149])
+* The [field] [RESOURCES_LINK_COLOR] is declared but never read in the code (line:[139])
+* The [field] [RESOURCES_SCRIPT_USER_KEY_NAME_FOR_SIGNING] is declared but never read in the code (line:[171])
+* The [field] [RESOURCES_SIGNED_SCRIPT_ARE_TRUSTED] is declared but never read in the code (line:[183])
+* The [field] [RESOURCES_SEARCH_FOR_NODE_TEXT_WITHOUT_QUESTION] is declared but never read in the code (line:[205])
+
+File: GrabKeyDialog.java
+* The [field] [MODIFIER_SEPARATOR] is declared but never read in the code (line:[208])
+
+File: HookDescriptorBase.java
+* The [field] [FREEMIND_BASE_DIR_STRING] is declared but never read in the code (line:[44])
+
+File: HookFactory.java
+* The [field] [hookRegistrationClass] is declared but never read in the code (line:[34])
+* The [field] [correspondingPlugin] is declared but never read in the code (line:[38])
+* The [field] [isPluginBase] is declared but never read in the code (line:[36])
+
+File: HtmlTools.java
+* The [field] [mIsAlreadyAppended] is declared but never read in the code (line:[112])
+* The [variable] [stringWithoutTags] is declared but never read in the code (line:[159])
+* The [variable] [mStartOld] is declared but never read in the code (line:[229])
+* The [field] [SP] is declared but never read in the code (line:[61])
+
+File: ImportAttributesDialog.java
+* The [field] [PARTIAL_SELECTED] is declared but never read in the code (line:[70])
+* The [field] [FULL_SELECTED] is declared but never read in the code (line:[69])
+
+File: MapMouseWheelListener.java
+* The [field] [c] is declared but never read in the code (line:[31])
+
+File: MapNodePositionHolderBase.java
+* The [field] [SHORT_CYCLE_MAP] is declared but never read in the code (line:[59])
+* The [field] [SHORT_TRANSPORT_MAP] is declared but never read in the code (line:[58])
+* The [field] [SHORT_MAP_QUEST_OPEN_MAP] is declared but never read in the code (line:[57])
+* The [field] [SHORT_MAPNIK] is declared but never read in the code (line:[60])
+* The [field] [mTooltipFile] is declared but never read in the code (line:[63])
+* The [field] [TILE_SOURCE_TRANSPORT_MAP] is declared but never read in the code (line:[54])
+* The [field] [NODE_MAP_STORE_TOOLTIP] is declared but never read in the code (line:[51])
+* The [field] [TILE_SOURCE_CYCLE_MAP] is declared but never read in the code (line:[55])
+* The [field] [TILE_SOURCE_MAP_QUEST_OPEN_MAP] is declared but never read in the code (line:[53])
+* The [field] [TILE_SOURCE_MAPNIK] is declared but never read in the code (line:[56])
+
+File: MapView.java
+* The [field] [standardSelectColor] is declared but never read in the code (line:[157])
+
+File: MenuBar.java
+* The [variable] [attributes] is declared but never read in the code (line:[396])
+* The [field] [editmenu] is declared but never read in the code (line:[77])
+* The [field] [filemenu] is declared but never read in the code (line:[76])
+* The [field] [formatmenu] is declared but never read in the code (line:[81])
+* The [field] [mapsmenu] is declared but never read in the code (line:[78])
+
+File: MindIcon.java
+* The [field] [LAST] is declared but never read in the code (line:[57])
+* The [field] [description] is declared but never read in the code (line:[44])
+
+File: MindMapActions.java
+* The [field] [NEW_SIBLING_BEFORE] is declared but never read in the code (line:[61])
+* The [field] [NEW_SIBLING_BEHIND] is declared but never read in the code (line:[60])
+* The [field] [NEW_CHILD] is declared but never read in the code (line:[59])
+* The [field] [NEW_CHILD_WITHOUT_FOCUS] is declared but never read in the code (line:[57])
+
+File: MindMapController.java
+* The [variable] [item] is declared but never read in the code (line:[935])
+* The [variable] [iconMenu] is declared but never read in the code (line:[927])
+* The [field] [c] is declared but never read in the code (line:[1240])
+* The [field] [addAsChildMode] is declared but never read in the code (line:[298])
+* The [field] [gotoLinkNodeAction] is declared but never read in the code (line:[403])
+* The [field] [openLinkDirectory] is declared but never read in the code (line:[329])
+* The [field] [underlined] is declared but never read in the code (line:[360])
+* The [field] [open] is declared but never read in the code (line:[314])
+* The [field] [assignAttributeDialog] is declared but never read in the code (line:[322])
+* The [field] [newMap] is declared but never read in the code (line:[313])
+* The [field] [compound] is declared but never read in the code (line:[307])
+
+File: MindMapHTMLWriter.java
+* The [field] [exportIcons] is declared but never read in the code (line:[24])
+
+File: MindMapModeAttributeController.java
+* The [variable] [element] is declared but never read in the code (line:[425])
+
+File: MindMapNodeDropListener.java
+* The [variable] [mindMapMapModel] is declared but never read in the code (line:[160])
+
+File: MindMapNode.java
+* The [field] [NODE_STYLES] is declared but never read in the code (line:[54])
+
+File: ModeController.java
+* The [field] [NODESEPARATOR] is declared but never read in the code (line:[54])
+
+File: MultipleImage.java
+* The [variable] [myX] is declared but never read in the code (line:[65])
+
+File: NodeAdapter.java
+* The [field] [ISLEAF] is declared but never read in the code (line:[136])
+
+File: NodeDropListener.java
+* The [field] [c] is declared but never read in the code (line:[33])
+
+File: NodeHookAction.java
+* The [variable] [destinationNodes] is declared but never read in the code (line:[376])
+
+File: NodeHookAdapter.java
+* The [field] [selfUpdateExpected] is declared but never read in the code (line:[31])
+
+File: NodeKeyListener.java
+* The [field] [c] is declared but never read in the code (line:[32])
+
+File: NodeMotionListener.java
+* The [field] [c] is declared but never read in the code (line:[39])
+
+File: NodeMouseMotionListener.java
+* The [field] [c] is declared but never read in the code (line:[40])
+
+File: NodeNoteBase.java
+* The [field] [NODE_NOTE_ICON] is declared but never read in the code (line:[33])
+
+File: NodeViewLayoutAdapter.java
+* The [field] [LISTENER_VIEW_WIDTH] is declared but never read in the code (line:[37])
+* The [field] [location] is declared but never read in the code (line:[39])
+
+File: NodeView.java
+* The [field] [viewDeletionEvent] is declared but never read in the code (line:[109])
+* The [field] [ALIGN_CENTER] is declared but never read in the code (line:[99])
+* The [field] [DRAGGED_OVER_SON_LEFT] is declared but never read in the code (line:[96])
+* The [field] [ALIGN_TOP] is declared but never read in the code (line:[100])
+* The [field] [ALIGN_BOTTOM] is declared but never read in the code (line:[98])
+* The [field] [DRAGGED_OVER_SIBLING] is declared but never read in the code (line:[94])
+* The [field] [dragColor] is declared but never read in the code (line:[84])
+* The [field] [DRAGGED_OVER_NO] is declared but never read in the code (line:[92])
+* The [field] [DRAGGED_OVER_SON] is declared but never read in the code (line:[93])
+* The [field] [zeroPoint] is declared but never read in the code (line:[102])
+
+File: OptionalDontShowMeAgainDialog.java
+* The [field] [BOTH_OK_AND_CANCEL_OPTIONS_ARE_STORED] is declared but never read in the code (line:[55])
+
+File: OptionPanel.java
+* The [field] [DEFAULT_LAYOUT_FORMAT] is declared but never read in the code (line:[111])
+* The [field] [colorChooser] is declared but never read in the code (line:[104])
+* The [field] [MARKED_BUTTON_COLOR] is declared but never read in the code (line:[94])
+* The [field] [changeListeners] is declared but never read in the code (line:[139])
+* The [field] [lastKey] is declared but never read in the code (line:[245])
+
+File: PasteAction.java
+* The [variable] [realParent] is declared but never read in the code (line:[641])
+* The [field] [HREF_PATTERN] is declared but never read in the code (line:[322])
+
+File: PathBBox.java
+* The [variable] [type] is declared but never read in the code (line:[44])
+
+File: ReminderHookBase.java
+* The [field] [PLUGIN_LABEL] is declared but never read in the code (line:[45])
+
+File: SchemeController.java
+* The [variable] [code] is declared but never read in the code (line:[104])
+
+File: SchemeMode.java
+* The [field] [toolbar] is declared but never read in the code (line:[34])
+
+File: SchemeToolBar.java
+* The [variable] [button] is declared but never read in the code (line:[34])
+
+File: ScriptEditorProperty.java
+* The [field] [menu] is declared but never read in the code (line:[53])
+
+File: StructuredMenuHolder.java
+* The [variable] [categoryPair] is declared but never read in the code (line:[150])
+* The [field] [AMOUNT_OF_VISIBLE_MENU_ITEMS] is declared but never read in the code (line:[58])
+
+File: StylePatternFrame.java
+* The [field] [WITH_NAME_AND_CHILDS] is declared but never read in the code (line:[91])
+* The [field] [WITHOUT_NAME_AND_CHILDS] is declared but never read in the code (line:[89])
+
+File: ThreeCheckBoxProperty.java
+* The [field] [DON_T_TOUCH_VALUE] is declared but never read in the code (line:[51])
+* The [field] [TRUE_VALUE] is declared but never read in the code (line:[49])
+* The [field] [FALSE_VALUE] is declared but never read in the code (line:[47])
+
+File: ToggleFoldedAction.java
+* The [variable] [lastNode] is declared but never read in the code (line:[80])
+
+File: Tools.java
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1198])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[1198])
+
+File: XMLElementAdapter.java
+* The [field] [XML_NODE_XHTML_TYPE_NOTE] is declared but never read in the code (line:[75])
+* The [field] [XML_NODE_ADDITIONAL_INFO] is declared but never read in the code (line:[68])
+* The [field] [XML_NODE_CLASS] is declared but never read in the code (line:[67])
+
+File: XMLElement.java
+* The [field] [NANOXML_MINOR_VERSION] is declared but never read in the code (line:[175])
+* The [field] [NANOXML_MAJOR_VERSION] is declared but never read in the code (line:[165])
+* The [field] [serialVersionUID] is declared but never read in the code (line:[155])
+
